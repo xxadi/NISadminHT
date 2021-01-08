@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.zhengjie.yuangan.mapper.IMedNisAddUserMapper">
+
+
+
+
+    <select id="queryUserList" resultType="me.zhengjie.yuangan.bean.User">
+        select userid,username,password,deptname,
+            activity,professional,role,DATE_FORMAT(indate, '%Y-%m-%d')  indate
+        from NOA_USER t
+        where  (t.userid like '%${user}%' or( t.username like '%${user}%' or '' =#{user}) )
+        <if test="deptcode!=null and deptcode!=''">
+        and t.deptname = #{deptcode}
+        </if>
+        <if test="role!=null and role!=''">
+            and t.role = #{role}
+        </if>
+        <if test="job!=null and job!=''">
+            and t.professional = #{job}
+        </if>
+
+
+    </select>
+    <insert id="addUser" parameterType="me.zhengjie.yuangan.bean.User">
+         insert into NOA_USER(
+            userid,username,password,deptname,
+            activity,professional,role,indate
+        )
+        values(
+        #{userId,jdbcType=VARCHAR},#{userName,jdbcType=VARCHAR},#{passWord,jdbcType=VARCHAR},
+        #{deptname,jdbcType=VARCHAR},'1',#{professional,jdbcType=VARCHAR},
+        #{role,jdbcType=VARCHAR},TO_DATE(#{indate}, 'YYYY-MM-DD')
+        )
+    </insert>
+    <update id="updateUser">
+        update NOA_USER set
+        username=#{userName,jdbcType=VARCHAR},password=#{passWord,jdbcType=VARCHAR},deptname=#{deptname,jdbcType=VARCHAR},
+        professional=#{professional,jdbcType=VARCHAR},role=#{role,jdbcType=VARCHAR},indate=TO_DATE(#{indate},'YYYY-MM-DD HH24:MI:SS')
+        where userid=#{userId}
+    </update>
+
+    <delete id="deleteUser">
+        delete from NOA_USER where userid=#{userId}
+    </delete>
+
+</mapper>

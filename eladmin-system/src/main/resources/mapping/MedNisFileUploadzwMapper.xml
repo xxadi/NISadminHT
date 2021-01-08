@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.zhengjie.yuangan.mapper.ImedNisFileUploadMapper">
+
+    <insert id="addFile" parameterType="me.zhengjie.yuangan.bean.FileList" useGeneratedKeys="true" keyProperty="fileId">
+         insert into noa_file_list (
+             file_name,file_path,upload_time,file_user_id,file_isshare,file_isAll,file_isdownload,
+          file_state
+        )
+        values(
+        #{fileName,jdbcType=VARCHAR} ,#{filePath,jdbcType=VARCHAR},sysdate(),#{fileUserId,jdbcType=VARCHAR},#{fileIsshare,jdbcType=VARCHAR},#{fileIsall,jdbcType=VARCHAR},#{fileIsdownload,jdbcType=VARCHAR},#{fileState,jdbcType=VARCHAR}
+        )
+    </insert>
+    <update id="updateFile" parameterType="me.zhengjie.yuangan.bean.FileList" useGeneratedKeys="true" keyProperty="fileId">
+         update  noa_file_list
+           set  file_name = #{fileName},file_path= #{filePath},upload_time= sysdate(),file_user_id= #{fileUserId},file_isshare= #{fileIsshare},file_isAll= #{fileIsall},file_isdownload= #{fileIsdownload},
+          file_state= #{fileState}
+    </update>
+<!--    <update id="updateQuestion" parameterType="me.zhengjie.yuangan.bean.QuestionBank">-->
+<!--            update NOA_QUESTION_BANK-->
+<!--            set   quest_name = #{questName},quest_oper_id =#{questOperId} ,quest_oper_name=#{questOperName},-->
+<!--            quest_oper_time = #{questOperTime},quest_type =#{questType} ,quest_title=#{questTitle},-->
+<!--            quest_difficulty = #{questDifficulty},quest_state =#{questState} ,quest_result=#{questResult},-->
+<!--            create_time = DATE_FORMAT(#{createTime}, '%Y-%m-%d %H:%i:%s'),QUEST_ANALYSIS = #{questAnalysis},score = #{score}-->
+<!--            where quest_id = #{questId}-->
+<!--        </update>-->
+    <insert id="addFilePerson" parameterType="me.zhengjie.yuangan.bean.FilePath">
+         insert into noa_file_path (
+             parent_id,path_user_name,path_user_id,path_isread,path_isdown
+        )
+        values(
+        #{parentId,jdbcType=VARCHAR} ,#{pathUserId,jdbcType=VARCHAR},#{pathUserId,jdbcType=VARCHAR},#{pathIsread,jdbcType=VARCHAR},#{pathIsdown,jdbcType=VARCHAR}
+        )
+    </insert>
+    <select id="queryFileUploadList" resultType="me.zhengjie.yuangan.bean.FileList">
+        select  a.file_id,a.upload_time,a.file_path,a.file_name,a.file_isdownload,a.file_state,COUNT(parent_id) as fileNum
+  from noa_file_list a left join noa_file_path b
+            on a.file_id = b.parent_id
+
+        where  (a.file_name like '%${name}%' or( a.file_name like '%${name}%' or '' =#{name}) )
+         GROUP BY a.file_id
+      ORDER by file_id
+    </select>
+
+
+<!--    <insert id="addUserDetail" parameterType="me.zhengjie.yuangan.bean.GroupManager">-->
+<!--        insert into NOA_GROUP_PATH(-->
+<!--        GROUP_ID,PERSON_ID,-->
+<!--        create_time,activity-->
+<!--        )-->
+<!--        values(-->
+<!--        #{groupId,jdbcType=VARCHAR} ,#{groupNameCpde,jdbcType=VARCHAR},-->
+<!--        sysdate(),'1'-->
+<!--        )-->
+<!--    </insert>-->
+
+    <select id="queryFileUploadListById" resultType="me.zhengjie.yuangan.bean.FilePath">
+        select t.*,u.* from noa_file_path t , noa_user u  WHERE t.path_user_id = u.USERID and t.parent_id =#{questId}
+    </select>
+
+<!--    <update id="editGroup" parameterType="me.zhengjie.yuangan.bean.GroupManager">-->
+<!--        update NOA_GROUP_MANAG-->
+<!--        set-->
+<!--        group_gname= #{groupGname},-->
+<!--        create_time= sysdate(),activity= '1'-->
+<!--         where group_id = #{groupId}-->
+<!--    </update>-->
+    <delete id="deleteFilePerson" parameterType="java.lang.String">
+        DELETE FROM noa_file_path WHERE parent_id = #{id}
+    </delete>
+
+<!--    <delete id="deleteGroup" parameterType="java.lang.String">-->
+<!--        DELETE FROM NOA_GROUP_MANAG WHERE GROUP_ID = #{groupId}-->
+<!--    </delete>-->
+</mapper>

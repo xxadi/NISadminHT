@@ -1,0 +1,40 @@
+2020-12-03 13:51:29.874 ERROR com.zaxxer.hikari.HikariConfig Line:493 - Failed to load driver class net.sf.log4jdbc.sql.jdbcapi.DriverSpy from HikariConfig class classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-12-03 13:51:29.925 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:42  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under '' to com.zaxxer.hikari.HikariDataSource:
+
+    Property: driverclassname
+    Value: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    Origin: "driverClassName" from property source "source"
+    Reason: Failed to load driver class net.sf.log4jdbc.sql.jdbcapi.DriverSpy in either of HikariConfig class loader or Thread context classloader
+
+Action:
+
+Update your application's configuration
+
+2020-12-03 13:52:00.845 ERROR com.zaxxer.hikari.HikariConfig Line:493 - Failed to load driver class net.sf.log4jdbc.sql.jdbcapi.DriverSpy from HikariConfig class classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-12-03 13:52:00.894 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:42  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under '' to com.zaxxer.hikari.HikariDataSource:
+
+    Property: driverclassname
+    Value: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    Origin: "driverClassName" from property source "source"
+    Reason: Failed to load driver class net.sf.log4jdbc.sql.jdbcapi.DriverSpy in either of HikariConfig class loader or Thread context classloader
+
+Action:
+
+Update your application's configuration
+

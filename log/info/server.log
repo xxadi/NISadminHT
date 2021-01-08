@@ -1,0 +1,1375 @@
+2020-12-03 13:46:07.936 INFO  me.zhengjie.AppRun Line:50  - Starting AppRun on LAPTOP-8HSE5ES7 with PID 56300 (started by lenovo in E:\work代码\NISadminHT)
+2020-12-03 13:46:07.939 INFO  me.zhengjie.AppRun Line:679 - The following profiles are active: dev
+2020-12-03 13:46:08.499 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:176 - 开始注册数据源
+2020-12-03 13:46:08.879 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:84  - 注册默认数据源成功
+2020-12-03 13:46:08.883 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:99  - 注册数据源orclDb成功
+2020-12-03 13:46:08.885 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:113 - 注册数据源成功，一共注册2个数据源
+2020-12-03 13:46:09.074 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-03 13:46:09.075 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-03 13:46:09.239 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:182 - Finished Spring Data repository scanning in 159ms. Found 22 repository interfaces.
+2020-12-03 13:46:09.558 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'asyncTaskProperties' of type [me.zhengjie.config.thread.AsyncTaskProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:46:09.559 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'asyncTaskExecutePool' of type [me.zhengjie.config.thread.AsyncTaskExecutePool$$EnhancerBySpringCGLIB$$f71dd72b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:46:09.633 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4e267dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:46:09.736 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'redisConfig' of type [me.zhengjie.config.RedisConfig$$EnhancerBySpringCGLIB$$1e0aadf4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:46:09.772 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$9d903016] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:46:09.778 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:46:09.780 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5af64ce0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:46:09.783 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$c264d2c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:46:09.791 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:46:10.103 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8000 (http)
+2020-12-03 13:46:10.117 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-12-03 13:46:10.118 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-12-03 13:46:10.124 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\lenovo\product\11.2.0\client_1\bin;D:\app\lenovo\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\work\node\;C:\Program Files\MySQL\MySQL Server 5.5\bin;E:\work\mysql-5.7.13-winx64\bin;D:\work\redis\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;E:\work\software\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Roaming\npm;E:\work\mysql-5.7.13-winx64\bin;C:\Users\lenovo\.dotnet\tools;.]
+2020-12-03 13:46:10.240 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-12-03 13:46:10.240 INFO  org.springframework.web.context.ContextLoader Line:285 - Root WebApplicationContext: initialization completed in 2262 ms
+2020-12-03 13:46:10.297 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-03 13:46:10.298 INFO  org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean Line:248 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2020-12-03 13:46:10.298 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:248 - Mapping filter: 'corsFilter' to: [/*]
+2020-12-03 13:46:10.298 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:186 - Servlet dispatcherServlet mapped to [/]
+2020-12-03 13:46:10.596 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2020-12-03 13:46:10.686 INFO  log4jdbc.log4j2 Line:365 - 1. Connection opened. {executed in 70ms} 
+2020-12-03 13:46:10.687 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.new Connection returned 
+2020-12-03 13:46:10.687 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getNetworkTimeout() returned 0
+2020-12-03 13:46:10.689 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isReadOnly() returned false
+2020-12-03 13:46:10.689 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-12-03 13:46:10.689 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(1) returned true
+2020-12-03 13:46:10.690 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getTransactionIsolation() returned 4
+2020-12-03 13:46:10.692 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2020-12-03 13:46:10.694 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@66756662
+2020-12-03 13:46:10.698 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:46:10.708 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@5ed0b4e3
+2020-12-03 13:46:10.709 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:46:10.749 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-03 13:46:10.798 INFO  org.hibernate.Version Line:46  - HHH000412: Hibernate Core {5.3.7.Final}
+2020-12-03 13:46:10.800 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2020-12-03 13:46:10.805 INFO  log4jdbc.log4j2 Line:365 - 2. Connection opened. {executed in 3ms} 
+2020-12-03 13:46:10.805 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.new Connection returned 
+2020-12-03 13:46:10.806 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.isReadOnly() returned false
+2020-12-03 13:46:10.806 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.getAutoCommit() returned true
+2020-12-03 13:46:10.809 INFO  log4jdbc.log4j2 Line:365 - 3. Connection opened. {executed in 2ms} 
+2020-12-03 13:46:10.809 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.new Connection returned 
+2020-12-03 13:46:10.810 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.isReadOnly() returned false
+2020-12-03 13:46:10.810 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.getAutoCommit() returned true
+2020-12-03 13:46:10.812 INFO  log4jdbc.log4j2 Line:365 - 4. Connection opened. {executed in 2ms} 
+2020-12-03 13:46:10.812 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.new Connection returned 
+2020-12-03 13:46:10.813 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.isReadOnly() returned false
+2020-12-03 13:46:10.813 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.getAutoCommit() returned true
+2020-12-03 13:46:10.815 INFO  log4jdbc.log4j2 Line:365 - 5. Connection opened. {executed in 2ms} 
+2020-12-03 13:46:10.816 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.new Connection returned 
+2020-12-03 13:46:10.816 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.isReadOnly() returned false
+2020-12-03 13:46:10.816 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.getAutoCommit() returned true
+2020-12-03 13:46:10.819 INFO  log4jdbc.log4j2 Line:365 - 6. Connection opened. {executed in 3ms} 
+2020-12-03 13:46:10.819 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.new Connection returned 
+2020-12-03 13:46:10.820 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.isReadOnly() returned false
+2020-12-03 13:46:10.820 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.getAutoCommit() returned true
+2020-12-03 13:46:10.823 INFO  log4jdbc.log4j2 Line:365 - 7. Connection opened. {executed in 3ms} 
+2020-12-03 13:46:10.823 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.new Connection returned 
+2020-12-03 13:46:10.823 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.isReadOnly() returned false
+2020-12-03 13:46:10.823 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.getAutoCommit() returned true
+2020-12-03 13:46:10.826 INFO  log4jdbc.log4j2 Line:365 - 8. Connection opened. {executed in 2ms} 
+2020-12-03 13:46:10.826 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.new Connection returned 
+2020-12-03 13:46:10.826 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.isReadOnly() returned false
+2020-12-03 13:46:10.827 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.getAutoCommit() returned true
+2020-12-03 13:46:10.829 INFO  log4jdbc.log4j2 Line:365 - 9. Connection opened. {executed in 2ms} 
+2020-12-03 13:46:10.829 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.new Connection returned 
+2020-12-03 13:46:10.829 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.isReadOnly() returned false
+2020-12-03 13:46:10.829 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.getAutoCommit() returned true
+2020-12-03 13:46:10.832 INFO  log4jdbc.log4j2 Line:365 - 10. Connection opened. {executed in 3ms} 
+2020-12-03 13:46:10.832 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.new Connection returned 
+2020-12-03 13:46:10.832 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.isReadOnly() returned false
+2020-12-03 13:46:10.832 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.getAutoCommit() returned true
+2020-12-03 13:46:10.917 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-03 13:46:11.052 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@28dd81ad
+2020-12-03 13:46:11.059 INFO  org.hibernate.dialect.Dialect Line:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-12-03 13:46:11.097 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:46:11.896 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-03 13:46:11.906 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-12-03 13:46:11.906 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@1820f274
+2020-12-03 13:46:11.906 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:46:12.622 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-12-03 13:46:12.623 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@1fcf73b9
+2020-12-03 13:46:12.623 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:46:12.645 INFO  org.quartz.impl.StdSchedulerFactory Line:1208 - Using default implementation for ThreadExecutor
+2020-12-03 13:46:12.654 INFO  org.quartz.core.SchedulerSignalerImpl Line:61  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-12-03 13:46:12.654 INFO  org.quartz.core.QuartzScheduler Line:229 - Quartz Scheduler v.2.3.0 created.
+2020-12-03 13:46:12.654 INFO  org.quartz.simpl.RAMJobStore Line:155 - RAMJobStore initialized.
+2020-12-03 13:46:12.655 INFO  org.quartz.core.QuartzScheduler Line:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-12-03 13:46:12.656 INFO  org.quartz.impl.StdSchedulerFactory Line:1362 - Quartz scheduler 'QuartzScheduler' initialized from an externally provided properties instance.
+2020-12-03 13:46:12.656 INFO  org.quartz.impl.StdSchedulerFactory Line:1366 - Quartz scheduler version: 2.3.0
+2020-12-03 13:46:12.656 INFO  org.quartz.core.QuartzScheduler Line:2287 - JobFactory set to: me.zhengjie.modules.quartz.config.QuartzConfig$QuartzJobFactory@31434b63
+2020-12-03 13:46:12.657 INFO  org.quartz.core.QuartzScheduler Line:547 - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2020-12-03 13:46:13.711 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator Line:47  - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-03 13:46:14.571 INFO  org.springframework.security.web.DefaultSecurityFilterChain Line:43  - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c8859b4, org.springframework.security.web.context.SecurityContextPersistenceFilter@64dcfd09, org.springframework.security.web.header.HeaderWriterFilter@7d2ddbf3, org.springframework.security.web.authentication.logout.LogoutFilter@1d397e87, org.springframework.web.filter.CorsFilter@5f726750, me.zhengjie.modules.security.security.TokenFilter@56897de0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d2693f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ebcfcf1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40874f54, org.springframework.security.web.session.SessionManagementFilter@7f72855d, org.springframework.security.web.access.ExceptionTranslationFilter@568cbf8d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c6a1be2]
+2020-12-03 13:46:14.583 INFO  me.zhengjie.config.RedisConfig Line:123 - 初始化 -> [Redis CacheErrorHandler]
+2020-12-03 13:46:14.604 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-12-03 13:46:15.027 INFO  org.quartz.impl.StdSchedulerFactory Line:1208 - Using default implementation for ThreadExecutor
+2020-12-03 13:46:15.027 INFO  org.quartz.core.SchedulerSignalerImpl Line:61  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-12-03 13:46:15.027 INFO  org.quartz.core.QuartzScheduler Line:229 - Quartz Scheduler v.2.3.0 created.
+2020-12-03 13:46:15.028 INFO  org.quartz.simpl.RAMJobStore Line:155 - RAMJobStore initialized.
+2020-12-03 13:46:15.028 INFO  org.quartz.core.QuartzScheduler Line:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-12-03 13:46:15.028 INFO  org.quartz.impl.StdSchedulerFactory Line:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-12-03 13:46:15.028 INFO  org.quartz.impl.StdSchedulerFactory Line:1366 - Quartz scheduler version: 2.3.0
+2020-12-03 13:46:15.028 INFO  org.quartz.core.QuartzScheduler Line:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1252d480
+2020-12-03 13:46:15.118 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-12-03 13:46:15.132 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-12-03 13:46:15.179 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-12-03 13:46:15.338 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_1
+2020-12-03 13:46:15.339 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_1
+2020-12-03 13:46:15.342 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_1
+2020-12-03 13:46:15.345 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_1
+2020-12-03 13:46:15.347 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_1
+2020-12-03 13:46:15.366 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_2
+2020-12-03 13:46:15.367 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_2
+2020-12-03 13:46:15.370 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_2
+2020-12-03 13:46:15.372 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_2
+2020-12-03 13:46:15.384 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_2
+2020-12-03 13:46:15.385 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: uploadUsingPOST_1
+2020-12-03 13:46:15.387 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_3
+2020-12-03 13:46:15.390 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_3
+2020-12-03 13:46:15.393 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_3
+2020-12-03 13:46:15.396 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_3
+2020-12-03 13:46:15.397 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_4
+2020-12-03 13:46:15.400 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_4
+2020-12-03 13:46:15.403 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_4
+2020-12-03 13:46:15.404 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_3
+2020-12-03 13:46:15.408 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_4
+2020-12-03 13:46:15.409 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_5
+2020-12-03 13:46:15.412 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_5
+2020-12-03 13:46:15.414 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_5
+2020-12-03 13:46:15.415 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_4
+2020-12-03 13:46:15.417 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_5
+2020-12-03 13:46:15.418 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_6
+2020-12-03 13:46:15.422 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_6
+2020-12-03 13:46:15.423 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_5
+2020-12-03 13:46:15.424 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryConfigUsingGET_1
+2020-12-03 13:46:15.429 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateConfigUsingPUT_1
+2020-12-03 13:46:15.430 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_7
+2020-12-03 13:46:15.433 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_6
+2020-12-03 13:46:15.437 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryTablesUsingGET_1
+2020-12-03 13:46:15.469 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_6
+2020-12-03 13:46:15.470 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_7
+2020-12-03 13:46:15.473 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_6
+2020-12-03 13:46:15.475 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_8
+2020-12-03 13:46:15.476 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_7
+2020-12-03 13:46:15.478 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_7
+2020-12-03 13:46:15.479 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_8
+2020-12-03 13:46:15.482 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_7
+2020-12-03 13:46:15.484 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_9
+2020-12-03 13:46:15.487 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_8
+2020-12-03 13:46:15.488 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: uploadUsingPOST_2
+2020-12-03 13:46:15.492 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_8
+2020-12-03 13:46:15.494 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_10
+2020-12-03 13:46:15.503 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_8
+2020-12-03 13:46:15.504 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_9
+2020-12-03 13:46:15.506 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_9
+2020-12-03 13:46:15.507 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: getSuperiorUsingPOST_1
+2020-12-03 13:46:15.508 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_11
+2020-12-03 13:46:15.509 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_12
+2020-12-03 13:46:15.510 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_9
+2020-12-03 13:46:15.511 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_13
+2020-12-03 13:46:15.512 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_10
+2020-12-03 13:46:15.512 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_10
+2020-12-03 13:46:15.513 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_14
+2020-12-03 13:46:15.515 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_11
+2020-12-03 13:46:15.517 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_11
+2020-12-03 13:46:15.519 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_12
+2020-12-03 13:46:15.520 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_15
+2020-12-03 13:46:15.521 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryConfigUsingGET_2
+2020-12-03 13:46:15.523 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateConfigUsingPUT_2
+2020-12-03 13:46:15.524 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: uploadUsingPOST_3
+2020-12-03 13:46:15.528 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_9
+2020-12-03 13:46:15.528 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_12
+2020-12-03 13:46:15.531 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_13
+2020-12-03 13:46:15.535 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_16
+2020-12-03 13:46:15.537 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_10
+2020-12-03 13:46:15.538 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_11
+2020-12-03 13:46:15.550 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_10
+2020-12-03 13:46:15.551 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_13
+2020-12-03 13:46:15.553 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_14
+2020-12-03 13:46:15.555 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_17
+2020-12-03 13:46:15.556 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_18
+2020-12-03 13:46:15.558 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_19
+2020-12-03 13:46:15.559 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_12
+2020-12-03 13:46:15.562 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_11
+2020-12-03 13:46:15.563 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_14
+2020-12-03 13:46:15.566 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_15
+2020-12-03 13:46:15.567 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_20
+2020-12-03 13:46:15.568 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: testConnectUsingPOST_1
+2020-12-03 13:46:15.569 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_13
+2020-12-03 13:46:15.577 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_12
+2020-12-03 13:46:15.579 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_15
+2020-12-03 13:46:15.583 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_16
+2020-12-03 13:46:15.585 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_21
+2020-12-03 13:46:15.586 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_14
+2020-12-03 13:46:15.603 INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean Line:726 - Starting Quartz Scheduler now
+2020-12-03 13:46:15.604 INFO  org.quartz.core.QuartzScheduler Line:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-12-03 13:46:15.634 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8000 (http) with context path ''
+2020-12-03 13:46:15.637 INFO  me.zhengjie.AppRun Line:59  - Started AppRun in 8.079 seconds (JVM running for 9.041)
+2020-12-03 13:46:15.639 INFO  me.zhengjie.modules.quartz.config.JobRunner Line:48  - --------------------注入定时任务---------------------
+2020-12-03 13:46:15.676 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-12-03 13:46:15.688 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.new PreparedStatement returned 
+2020-12-03 13:46:15.689 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.prepareStatement(select quartzjob0_.job_id as job_id1_14_, quartzjob0_.create_by as create_b2_14_, quartzjob0_.create_time as create_t3_14_, quartzjob0_.update_time as update_t4_14_, quartzjob0_.update_by as update_b5_14_, quartzjob0_.bean_name as bean_nam6_14_, quartzjob0_.cron_expression as cron_exp7_14_, quartzjob0_.description as descript8_14_, quartzjob0_.email as email9_14_, quartzjob0_.is_pause as is_paus10_14_, quartzjob0_.job_name as job_nam11_14_, quartzjob0_.method_name as method_12_14_, quartzjob0_.params as params13_14_, quartzjob0_.pause_after_failure as pause_a14_14_, quartzjob0_.person_in_charge as person_15_14_, quartzjob0_.sub_task as sub_tas16_14_ from sys_quartz_job quartzjob0_ where quartzjob0_.is_pause=0) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2b3fd4d2
+2020-12-03 13:46:15.695 INFO  log4jdbc.log4j2 Line:243 - 1. select quartzjob0_.job_id as job_id1_14_, quartzjob0_.create_by as create_b2_14_, quartzjob0_.create_time 
+as create_t3_14_, quartzjob0_.update_time as update_t4_14_, quartzjob0_.update_by as update_b5_14_, 
+quartzjob0_.bean_name as bean_nam6_14_, quartzjob0_.cron_expression as cron_exp7_14_, quartzjob0_.description 
+as descript8_14_, quartzjob0_.email as email9_14_, quartzjob0_.is_pause as is_paus10_14_, quartzjob0_.job_name 
+as job_nam11_14_, quartzjob0_.method_name as method_12_14_, quartzjob0_.params as params13_14_, 
+quartzjob0_.pause_after_failure as pause_a14_14_, quartzjob0_.person_in_charge as person_15_14_, 
+quartzjob0_.sub_task as sub_tas16_14_ from sys_quartz_job quartzjob0_ where quartzjob0_.is_pause=0  {executed in 1 ms}
+2020-12-03 13:46:15.699 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.new ResultSet returned 
+2020-12-03 13:46:15.699 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.executeQuery() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@6efd83ac
+2020-12-03 13:46:15.704 INFO  log4jdbc.log4j2 Line:390 - 
+|-------|----------|------------|------------|----------|----------|----------------|------------|------|---------|---------|------------|-------|--------------------|-----------------|---------|
+|job_id |create_by |create_time |update_time |update_by |bean_name |cron_expression |description |email |is_pause |job_name |method_name |params |pause_after_failure |person_in_charge |sub_task |
+|-------|----------|------------|------------|----------|----------|----------------|------------|------|---------|---------|------------|-------|--------------------|-----------------|---------|
+|-------|----------|------------|------------|----------|----------|----------------|------------|------|---------|---------|------------|-------|--------------------|-----------------|---------|
+
+2020-12-03 13:46:15.704 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned false
+2020-12-03 13:46:15.706 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.close() returned void
+2020-12-03 13:46:15.706 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getMaxRows() returned 0
+2020-12-03 13:46:15.706 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getQueryTimeout() returned 0
+2020-12-03 13:46:15.706 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.close() returned 
+2020-12-03 13:46:15.707 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:46:15.708 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:46:15.709 INFO  me.zhengjie.modules.quartz.config.JobRunner Line:51  - --------------------定时任务注入完成---------------------
+2020-12-03 13:46:21.463 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 13:46:21.463 INFO  org.springframework.web.servlet.DispatcherServlet Line:521 - Initializing Servlet 'dispatcherServlet'
+2020-12-03 13:46:21.475 INFO  org.springframework.web.servlet.DispatcherServlet Line:543 - Completed initialization in 12 ms
+2020-12-03 13:46:21.563 INFO  io.lettuce.core.EpollProvider Line:101 - Starting without optional epoll library
+2020-12-03 13:46:21.564 INFO  io.lettuce.core.KqueueProvider Line:101 - Starting without optional kqueue library
+2020-12-03 13:46:22.339 INFO  me.zhengjie.yuangan.controller.GroupManagerController Line:46  - queryGroupList
+2020-12-03 13:46:22.359 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-2 - Starting...
+2020-12-03 13:46:22.360 WARN  com.zaxxer.hikari.util.DriverDataSource Line:68  - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2020-12-03 13:46:22.536 INFO  com.zaxxer.hikari.pool.PoolBase Line:525 - HikariPool-2 - Driver does not support get/set network timeout for connections. (null)
+2020-12-03 13:46:22.539 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-2 - Start completed.
+2020-12-03 13:48:07.391 INFO  me.zhengjie.AppRun Line:50  - Starting AppRun on LAPTOP-8HSE5ES7 with PID 41596 (started by lenovo in E:\work代码\NISadminHT)
+2020-12-03 13:48:07.394 INFO  me.zhengjie.AppRun Line:679 - The following profiles are active: dev
+2020-12-03 13:48:07.954 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:176 - 开始注册数据源
+2020-12-03 13:48:08.359 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:84  - 注册默认数据源成功
+2020-12-03 13:48:08.364 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:99  - 注册数据源orclDb成功
+2020-12-03 13:48:08.365 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:113 - 注册数据源成功，一共注册2个数据源
+2020-12-03 13:48:08.550 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-03 13:48:08.551 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-03 13:48:08.715 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:182 - Finished Spring Data repository scanning in 160ms. Found 22 repository interfaces.
+2020-12-03 13:48:09.015 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'asyncTaskProperties' of type [me.zhengjie.config.thread.AsyncTaskProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:48:09.016 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'asyncTaskExecutePool' of type [me.zhengjie.config.thread.AsyncTaskExecutePool$$EnhancerBySpringCGLIB$$819adeb5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:48:09.090 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8f5f6f66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:48:09.196 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'redisConfig' of type [me.zhengjie.config.RedisConfig$$EnhancerBySpringCGLIB$$a887b57e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:48:09.238 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$280d37a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:48:09.243 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:48:09.246 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6cfbbff7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:48:09.249 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$4ce1da52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:48:09.256 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:48:09.565 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8000 (http)
+2020-12-03 13:48:09.581 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-12-03 13:48:09.582 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-12-03 13:48:09.587 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\lenovo\product\11.2.0\client_1\bin;D:\app\lenovo\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\work\node\;C:\Program Files\MySQL\MySQL Server 5.5\bin;E:\work\mysql-5.7.13-winx64\bin;D:\work\redis\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;E:\work\software\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Roaming\npm;E:\work\mysql-5.7.13-winx64\bin;C:\Users\lenovo\.dotnet\tools;.]
+2020-12-03 13:48:09.704 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-12-03 13:48:09.705 INFO  org.springframework.web.context.ContextLoader Line:285 - Root WebApplicationContext: initialization completed in 2267 ms
+2020-12-03 13:48:09.760 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-03 13:48:09.761 INFO  org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean Line:248 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2020-12-03 13:48:09.762 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:248 - Mapping filter: 'corsFilter' to: [/*]
+2020-12-03 13:48:09.762 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:186 - Servlet dispatcherServlet mapped to [/]
+2020-12-03 13:48:10.040 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2020-12-03 13:48:10.125 INFO  log4jdbc.log4j2 Line:365 - 1. Connection opened. {executed in 71ms} 
+2020-12-03 13:48:10.126 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.new Connection returned 
+2020-12-03 13:48:10.127 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getNetworkTimeout() returned 0
+2020-12-03 13:48:10.128 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isReadOnly() returned false
+2020-12-03 13:48:10.128 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-12-03 13:48:10.129 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(1) returned true
+2020-12-03 13:48:10.129 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getTransactionIsolation() returned 4
+2020-12-03 13:48:10.131 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2020-12-03 13:48:10.133 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@3e03046d
+2020-12-03 13:48:10.137 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:48:10.147 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@7cfb8e98
+2020-12-03 13:48:10.148 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:48:10.189 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-03 13:48:10.240 INFO  org.hibernate.Version Line:46  - HHH000412: Hibernate Core {5.3.7.Final}
+2020-12-03 13:48:10.242 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2020-12-03 13:48:10.245 INFO  log4jdbc.log4j2 Line:365 - 2. Connection opened. {executed in 2ms} 
+2020-12-03 13:48:10.246 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.new Connection returned 
+2020-12-03 13:48:10.246 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.isReadOnly() returned false
+2020-12-03 13:48:10.247 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.getAutoCommit() returned true
+2020-12-03 13:48:10.250 INFO  log4jdbc.log4j2 Line:365 - 3. Connection opened. {executed in 3ms} 
+2020-12-03 13:48:10.250 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.new Connection returned 
+2020-12-03 13:48:10.250 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.isReadOnly() returned false
+2020-12-03 13:48:10.251 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.getAutoCommit() returned true
+2020-12-03 13:48:10.253 INFO  log4jdbc.log4j2 Line:365 - 4. Connection opened. {executed in 2ms} 
+2020-12-03 13:48:10.253 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.new Connection returned 
+2020-12-03 13:48:10.254 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.isReadOnly() returned false
+2020-12-03 13:48:10.254 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.getAutoCommit() returned true
+2020-12-03 13:48:10.256 INFO  log4jdbc.log4j2 Line:365 - 5. Connection opened. {executed in 2ms} 
+2020-12-03 13:48:10.256 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.new Connection returned 
+2020-12-03 13:48:10.257 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.isReadOnly() returned false
+2020-12-03 13:48:10.257 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.getAutoCommit() returned true
+2020-12-03 13:48:10.259 INFO  log4jdbc.log4j2 Line:365 - 6. Connection opened. {executed in 2ms} 
+2020-12-03 13:48:10.260 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.new Connection returned 
+2020-12-03 13:48:10.260 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.isReadOnly() returned false
+2020-12-03 13:48:10.260 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.getAutoCommit() returned true
+2020-12-03 13:48:10.263 INFO  log4jdbc.log4j2 Line:365 - 7. Connection opened. {executed in 2ms} 
+2020-12-03 13:48:10.263 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.new Connection returned 
+2020-12-03 13:48:10.264 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.isReadOnly() returned false
+2020-12-03 13:48:10.264 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.getAutoCommit() returned true
+2020-12-03 13:48:10.266 INFO  log4jdbc.log4j2 Line:365 - 8. Connection opened. {executed in 2ms} 
+2020-12-03 13:48:10.267 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.new Connection returned 
+2020-12-03 13:48:10.267 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.isReadOnly() returned false
+2020-12-03 13:48:10.267 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.getAutoCommit() returned true
+2020-12-03 13:48:10.270 INFO  log4jdbc.log4j2 Line:365 - 9. Connection opened. {executed in 3ms} 
+2020-12-03 13:48:10.270 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.new Connection returned 
+2020-12-03 13:48:10.270 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.isReadOnly() returned false
+2020-12-03 13:48:10.270 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.getAutoCommit() returned true
+2020-12-03 13:48:10.273 INFO  log4jdbc.log4j2 Line:365 - 10. Connection opened. {executed in 2ms} 
+2020-12-03 13:48:10.273 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.new Connection returned 
+2020-12-03 13:48:10.273 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.isReadOnly() returned false
+2020-12-03 13:48:10.273 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.getAutoCommit() returned true
+2020-12-03 13:48:10.359 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-03 13:48:10.495 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@78545d40
+2020-12-03 13:48:10.502 INFO  org.hibernate.dialect.Dialect Line:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-12-03 13:48:10.539 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:48:11.289 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-03 13:48:11.298 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-12-03 13:48:11.299 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@4b5f022f
+2020-12-03 13:48:11.299 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:48:12.002 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-12-03 13:48:12.002 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@24558113
+2020-12-03 13:48:12.002 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:48:12.026 INFO  org.quartz.impl.StdSchedulerFactory Line:1208 - Using default implementation for ThreadExecutor
+2020-12-03 13:48:12.034 INFO  org.quartz.core.SchedulerSignalerImpl Line:61  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-12-03 13:48:12.035 INFO  org.quartz.core.QuartzScheduler Line:229 - Quartz Scheduler v.2.3.0 created.
+2020-12-03 13:48:12.035 INFO  org.quartz.simpl.RAMJobStore Line:155 - RAMJobStore initialized.
+2020-12-03 13:48:12.036 INFO  org.quartz.core.QuartzScheduler Line:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-12-03 13:48:12.036 INFO  org.quartz.impl.StdSchedulerFactory Line:1362 - Quartz scheduler 'QuartzScheduler' initialized from an externally provided properties instance.
+2020-12-03 13:48:12.036 INFO  org.quartz.impl.StdSchedulerFactory Line:1366 - Quartz scheduler version: 2.3.0
+2020-12-03 13:48:12.037 INFO  org.quartz.core.QuartzScheduler Line:2287 - JobFactory set to: me.zhengjie.modules.quartz.config.QuartzConfig$QuartzJobFactory@632d1b1b
+2020-12-03 13:48:12.037 INFO  org.quartz.core.QuartzScheduler Line:547 - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2020-12-03 13:48:13.097 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator Line:47  - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-03 13:48:13.929 INFO  org.springframework.security.web.DefaultSecurityFilterChain Line:43  - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5889e697, org.springframework.security.web.context.SecurityContextPersistenceFilter@7308d133, org.springframework.security.web.header.HeaderWriterFilter@11df0bc7, org.springframework.security.web.authentication.logout.LogoutFilter@138110f8, org.springframework.web.filter.CorsFilter@52bd9a27, me.zhengjie.modules.security.security.TokenFilter@2c3d1214, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21dbd651, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5aff8207, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@48064a5a, org.springframework.security.web.session.SessionManagementFilter@72b689f6, org.springframework.security.web.access.ExceptionTranslationFilter@41d6d6c4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54c1878b]
+2020-12-03 13:48:13.940 INFO  me.zhengjie.config.RedisConfig Line:123 - 初始化 -> [Redis CacheErrorHandler]
+2020-12-03 13:48:13.961 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-12-03 13:48:14.382 INFO  org.quartz.impl.StdSchedulerFactory Line:1208 - Using default implementation for ThreadExecutor
+2020-12-03 13:48:14.383 INFO  org.quartz.core.SchedulerSignalerImpl Line:61  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-12-03 13:48:14.383 INFO  org.quartz.core.QuartzScheduler Line:229 - Quartz Scheduler v.2.3.0 created.
+2020-12-03 13:48:14.383 INFO  org.quartz.simpl.RAMJobStore Line:155 - RAMJobStore initialized.
+2020-12-03 13:48:14.384 INFO  org.quartz.core.QuartzScheduler Line:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-12-03 13:48:14.384 INFO  org.quartz.impl.StdSchedulerFactory Line:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-12-03 13:48:14.384 INFO  org.quartz.impl.StdSchedulerFactory Line:1366 - Quartz scheduler version: 2.3.0
+2020-12-03 13:48:14.384 INFO  org.quartz.core.QuartzScheduler Line:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@157e0f6b
+2020-12-03 13:48:14.476 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-12-03 13:48:14.495 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-12-03 13:48:14.552 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-12-03 13:48:14.711 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_1
+2020-12-03 13:48:14.713 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_1
+2020-12-03 13:48:14.716 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_1
+2020-12-03 13:48:14.718 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_1
+2020-12-03 13:48:14.721 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_1
+2020-12-03 13:48:14.740 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_2
+2020-12-03 13:48:14.741 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_2
+2020-12-03 13:48:14.744 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_2
+2020-12-03 13:48:14.747 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_2
+2020-12-03 13:48:14.756 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_2
+2020-12-03 13:48:14.757 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: uploadUsingPOST_1
+2020-12-03 13:48:14.759 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_3
+2020-12-03 13:48:14.762 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_3
+2020-12-03 13:48:14.764 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_3
+2020-12-03 13:48:14.768 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_3
+2020-12-03 13:48:14.769 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_4
+2020-12-03 13:48:14.772 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_4
+2020-12-03 13:48:14.775 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_4
+2020-12-03 13:48:14.777 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_3
+2020-12-03 13:48:14.781 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_4
+2020-12-03 13:48:14.782 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_5
+2020-12-03 13:48:14.784 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_5
+2020-12-03 13:48:14.786 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_5
+2020-12-03 13:48:14.787 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_4
+2020-12-03 13:48:14.789 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_5
+2020-12-03 13:48:14.790 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_6
+2020-12-03 13:48:14.794 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_6
+2020-12-03 13:48:14.795 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_5
+2020-12-03 13:48:14.796 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryConfigUsingGET_1
+2020-12-03 13:48:14.801 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateConfigUsingPUT_1
+2020-12-03 13:48:14.802 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_7
+2020-12-03 13:48:14.805 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_6
+2020-12-03 13:48:14.809 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryTablesUsingGET_1
+2020-12-03 13:48:14.841 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_6
+2020-12-03 13:48:14.842 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_7
+2020-12-03 13:48:14.845 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_6
+2020-12-03 13:48:14.847 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_8
+2020-12-03 13:48:14.848 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_7
+2020-12-03 13:48:14.851 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_7
+2020-12-03 13:48:14.852 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_8
+2020-12-03 13:48:14.854 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_7
+2020-12-03 13:48:14.856 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_9
+2020-12-03 13:48:14.859 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_8
+2020-12-03 13:48:14.860 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: uploadUsingPOST_2
+2020-12-03 13:48:14.864 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_8
+2020-12-03 13:48:14.867 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_10
+2020-12-03 13:48:14.875 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_8
+2020-12-03 13:48:14.876 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_9
+2020-12-03 13:48:14.879 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_9
+2020-12-03 13:48:14.880 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: getSuperiorUsingPOST_1
+2020-12-03 13:48:14.881 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_11
+2020-12-03 13:48:14.883 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_12
+2020-12-03 13:48:14.884 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_9
+2020-12-03 13:48:14.884 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_13
+2020-12-03 13:48:14.886 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_10
+2020-12-03 13:48:14.886 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_10
+2020-12-03 13:48:14.888 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_14
+2020-12-03 13:48:14.889 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_11
+2020-12-03 13:48:14.891 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_11
+2020-12-03 13:48:14.893 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_12
+2020-12-03 13:48:14.895 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_15
+2020-12-03 13:48:14.896 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryConfigUsingGET_2
+2020-12-03 13:48:14.898 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateConfigUsingPUT_2
+2020-12-03 13:48:14.899 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: uploadUsingPOST_3
+2020-12-03 13:48:14.903 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_9
+2020-12-03 13:48:14.904 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_12
+2020-12-03 13:48:14.906 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_13
+2020-12-03 13:48:14.910 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_16
+2020-12-03 13:48:14.912 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_10
+2020-12-03 13:48:14.913 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_11
+2020-12-03 13:48:14.926 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_10
+2020-12-03 13:48:14.927 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_13
+2020-12-03 13:48:14.929 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_14
+2020-12-03 13:48:14.931 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_17
+2020-12-03 13:48:14.932 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_18
+2020-12-03 13:48:14.934 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_19
+2020-12-03 13:48:14.935 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_12
+2020-12-03 13:48:14.939 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_11
+2020-12-03 13:48:14.940 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_14
+2020-12-03 13:48:14.942 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_15
+2020-12-03 13:48:14.943 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_20
+2020-12-03 13:48:14.944 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: testConnectUsingPOST_1
+2020-12-03 13:48:14.945 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_13
+2020-12-03 13:48:14.954 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_12
+2020-12-03 13:48:14.955 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_15
+2020-12-03 13:48:14.959 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_16
+2020-12-03 13:48:14.960 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_21
+2020-12-03 13:48:14.962 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_14
+2020-12-03 13:48:14.977 INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean Line:726 - Starting Quartz Scheduler now
+2020-12-03 13:48:14.977 INFO  org.quartz.core.QuartzScheduler Line:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-12-03 13:48:15.009 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8000 (http) with context path ''
+2020-12-03 13:48:15.011 INFO  me.zhengjie.AppRun Line:59  - Started AppRun in 7.999 seconds (JVM running for 8.933)
+2020-12-03 13:48:15.014 INFO  me.zhengjie.modules.quartz.config.JobRunner Line:48  - --------------------注入定时任务---------------------
+2020-12-03 13:48:15.051 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-12-03 13:48:15.062 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.new PreparedStatement returned 
+2020-12-03 13:48:15.062 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.prepareStatement(select quartzjob0_.job_id as job_id1_14_, quartzjob0_.create_by as create_b2_14_, quartzjob0_.create_time as create_t3_14_, quartzjob0_.update_time as update_t4_14_, quartzjob0_.update_by as update_b5_14_, quartzjob0_.bean_name as bean_nam6_14_, quartzjob0_.cron_expression as cron_exp7_14_, quartzjob0_.description as descript8_14_, quartzjob0_.email as email9_14_, quartzjob0_.is_pause as is_paus10_14_, quartzjob0_.job_name as job_nam11_14_, quartzjob0_.method_name as method_12_14_, quartzjob0_.params as params13_14_, quartzjob0_.pause_after_failure as pause_a14_14_, quartzjob0_.person_in_charge as person_15_14_, quartzjob0_.sub_task as sub_tas16_14_ from sys_quartz_job quartzjob0_ where quartzjob0_.is_pause=0) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@187c8f96
+2020-12-03 13:48:15.069 INFO  log4jdbc.log4j2 Line:243 - 1. select quartzjob0_.job_id as job_id1_14_, quartzjob0_.create_by as create_b2_14_, quartzjob0_.create_time 
+as create_t3_14_, quartzjob0_.update_time as update_t4_14_, quartzjob0_.update_by as update_b5_14_, 
+quartzjob0_.bean_name as bean_nam6_14_, quartzjob0_.cron_expression as cron_exp7_14_, quartzjob0_.description 
+as descript8_14_, quartzjob0_.email as email9_14_, quartzjob0_.is_pause as is_paus10_14_, quartzjob0_.job_name 
+as job_nam11_14_, quartzjob0_.method_name as method_12_14_, quartzjob0_.params as params13_14_, 
+quartzjob0_.pause_after_failure as pause_a14_14_, quartzjob0_.person_in_charge as person_15_14_, 
+quartzjob0_.sub_task as sub_tas16_14_ from sys_quartz_job quartzjob0_ where quartzjob0_.is_pause=0  {executed in 1 ms}
+2020-12-03 13:48:15.072 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.new ResultSet returned 
+2020-12-03 13:48:15.072 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.executeQuery() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@5e92a27
+2020-12-03 13:48:15.077 INFO  log4jdbc.log4j2 Line:390 - 
+|-------|----------|------------|------------|----------|----------|----------------|------------|------|---------|---------|------------|-------|--------------------|-----------------|---------|
+|job_id |create_by |create_time |update_time |update_by |bean_name |cron_expression |description |email |is_pause |job_name |method_name |params |pause_after_failure |person_in_charge |sub_task |
+|-------|----------|------------|------------|----------|----------|----------------|------------|------|---------|---------|------------|-------|--------------------|-----------------|---------|
+|-------|----------|------------|------------|----------|----------|----------------|------------|------|---------|---------|------------|-------|--------------------|-----------------|---------|
+
+2020-12-03 13:48:15.077 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned false
+2020-12-03 13:48:15.078 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.close() returned void
+2020-12-03 13:48:15.078 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getMaxRows() returned 0
+2020-12-03 13:48:15.078 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getQueryTimeout() returned 0
+2020-12-03 13:48:15.079 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.close() returned 
+2020-12-03 13:48:15.080 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:48:15.080 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:48:15.081 INFO  me.zhengjie.modules.quartz.config.JobRunner Line:51  - --------------------定时任务注入完成---------------------
+2020-12-03 13:48:19.504 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 13:48:19.505 INFO  org.springframework.web.servlet.DispatcherServlet Line:521 - Initializing Servlet 'dispatcherServlet'
+2020-12-03 13:48:19.516 INFO  org.springframework.web.servlet.DispatcherServlet Line:543 - Completed initialization in 11 ms
+2020-12-03 13:48:19.607 INFO  io.lettuce.core.EpollProvider Line:101 - Starting without optional epoll library
+2020-12-03 13:48:19.608 INFO  io.lettuce.core.KqueueProvider Line:101 - Starting without optional kqueue library
+2020-12-03 13:48:20.371 INFO  me.zhengjie.yuangan.controller.GroupManagerController Line:46  - queryGroupList
+2020-12-03 13:48:20.390 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-2 - Starting...
+2020-12-03 13:48:20.391 WARN  com.zaxxer.hikari.util.DriverDataSource Line:68  - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2020-12-03 13:48:20.517 INFO  com.zaxxer.hikari.pool.PoolBase Line:525 - HikariPool-2 - Driver does not support get/set network timeout for connections. (null)
+2020-12-03 13:48:20.520 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-2 - Start completed.
+2020-12-03 13:49:42.348 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.isValid(5) returned true
+2020-12-03 13:49:42.348 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-12-03 13:49:42.349 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.getAutoCommit() returned true
+2020-12-03 13:49:42.349 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-12-03 13:49:42.349 INFO  log4jdbc.log4j2 Line:197 - 2. PreparedStatement.new PreparedStatement returned 
+2020-12-03 13:49:42.349 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.prepareStatement(select userid,username,password,deptname,
+            activity,professional,role,DATE_FORMAT(indate, '%Y-%m-%d')  indate
+        from NOA_USER t
+        where  (t.userid like '%%' or( t.username like '%%' or '' =?) )) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@eb9128c
+2020-12-03 13:49:42.349 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.new PreparedStatement returned 
+2020-12-03 13:49:42.350 INFO  log4jdbc.log4j2 Line:197 - 2. PreparedStatement.setString(1, "") returned 
+2020-12-03 13:49:42.350 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.prepareStatement(select userid,username,password,deptname,
+            activity,professional,role,DATE_FORMAT(indate, '%Y-%m-%d')  indate
+        from NOA_USER t
+        where  (t.userid like '%%' or( t.username like '%%' or '' =?) )) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2786f03a
+2020-12-03 13:49:42.350 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.setString(1, "") returned 
+2020-12-03 13:49:42.352 INFO  log4jdbc.log4j2 Line:243 - 2. select userid,username,password,deptname, activity,professional,role,DATE_FORMAT(indate, '%Y-%m-%d') 
+indate from NOA_USER t where (t.userid like '%%' or( t.username like '%%' or '' ='') )  {executed in 2 ms}
+2020-12-03 13:49:42.352 INFO  log4jdbc.log4j2 Line:243 - 1. select userid,username,password,deptname, activity,professional,role,DATE_FORMAT(indate, '%Y-%m-%d') 
+indate from NOA_USER t where (t.userid like '%%' or( t.username like '%%' or '' ='') )  {executed in 2 ms}
+2020-12-03 13:49:42.352 INFO  log4jdbc.log4j2 Line:197 - 2. PreparedStatement.execute() returned true
+2020-12-03 13:49:42.352 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.execute() returned true
+2020-12-03 13:49:42.353 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.new ResultSet returned 
+2020-12-03 13:49:42.353 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.new ResultSet returned 
+2020-12-03 13:49:42.353 INFO  log4jdbc.log4j2 Line:197 - 2. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@39223b75
+2020-12-03 13:49:42.353 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@3f8aabd1
+2020-12-03 13:49:42.353 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@482c44a8 - Field level information: 
+	com.mysql.cj.result.Field@53d65b3b[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=userid,originalColumnName=USERID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags= PRIMARY_KEY, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@15bd1ebf[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=username,originalColumnName=USERNAME,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@3d6c66ee[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=password,originalColumnName=PASSWORD,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@174f7cef[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=deptname,originalColumnName=DEPTNAME,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@7621e2be[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=activity,originalColumnName=ACTIVITY,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@b145223[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=professional,originalColumnName=PROFESSIONAL,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@55910eb9[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=role,originalColumnName=ROLE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@39d5a8e0[catalog=null,tableName=null,originalTableName=null,columnName=indate,originalColumnName=null,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=45, charsetName=utf8]
+2020-12-03 13:49:42.353 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@765444e - Field level information: 
+	com.mysql.cj.result.Field@717a73b[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=userid,originalColumnName=USERID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags= PRIMARY_KEY, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@178090c3[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=username,originalColumnName=USERNAME,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@7d3e65c1[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=password,originalColumnName=PASSWORD,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@50d4191c[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=deptname,originalColumnName=DEPTNAME,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@6ac05242[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=activity,originalColumnName=ACTIVITY,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@79d5c151[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=professional,originalColumnName=PROFESSIONAL,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@774ba3c7[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=role,originalColumnName=ROLE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@72748cb[catalog=null,tableName=null,originalTableName=null,columnName=indate,originalColumnName=null,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=45, charsetName=utf8]
+2020-12-03 13:49:42.354 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getType() returned 1003
+2020-12-03 13:49:42.354 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getType() returned 1003
+2020-12-03 13:49:42.355 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned true
+2020-12-03 13:49:42.355 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.next() returned true
+2020-12-03 13:49:42.356 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(userid) returned 123123
+2020-12-03 13:49:42.356 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(userid) returned 123123
+2020-12-03 13:49:42.357 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.357 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.357 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(username) returned 安尔碘多
+2020-12-03 13:49:42.357 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(username) returned 安尔碘多
+2020-12-03 13:49:42.357 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.357 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.357 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(password) returned 123456
+2020-12-03 13:49:42.357 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(password) returned 123456
+2020-12-03 13:49:42.357 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.358 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.358 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(deptname) returned 1
+2020-12-03 13:49:42.358 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(deptname) returned 1
+2020-12-03 13:49:42.358 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.358 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.358 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(activity) returned 1
+2020-12-03 13:49:42.358 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(activity) returned 1
+2020-12-03 13:49:42.358 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.358 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.358 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(professional) returned 2
+2020-12-03 13:49:42.358 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(professional) returned 2
+2020-12-03 13:49:42.358 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.358 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.359 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(role) returned 1
+2020-12-03 13:49:42.359 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(role) returned 1
+2020-12-03 13:49:42.359 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.359 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.359 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(indate) returned 2020-11-04
+2020-12-03 13:49:42.359 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(indate) returned 2020-11-04
+2020-12-03 13:49:42.359 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.359 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.359 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.next() returned true
+2020-12-03 13:49:42.360 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(userid) returned 123124
+2020-12-03 13:49:42.360 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned true
+2020-12-03 13:49:42.360 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.360 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(username) returned 纣王
+2020-12-03 13:49:42.360 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.360 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(userid) returned 123124
+2020-12-03 13:49:42.360 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(password) returned 123456
+2020-12-03 13:49:42.360 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.361 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.361 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(deptname) returned 1
+2020-12-03 13:49:42.361 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(username) returned 纣王
+2020-12-03 13:49:42.361 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.361 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(activity) returned 1
+2020-12-03 13:49:42.361 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.361 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.361 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(password) returned 123456
+2020-12-03 13:49:42.361 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(professional) returned 2
+2020-12-03 13:49:42.361 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.362 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.362 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(deptname) returned 1
+2020-12-03 13:49:42.362 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(role) returned 1
+2020-12-03 13:49:42.362 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.362 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.362 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(activity) returned 1
+2020-12-03 13:49:42.362 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.getString(indate) returned 2020-11-04
+2020-12-03 13:49:42.362 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.362 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.362 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(professional) returned 2
+2020-12-03 13:49:42.362 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.363 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(role) returned 1
+2020-12-03 13:49:42.363 INFO  log4jdbc.log4j2 Line:390 - 
+|-------|---------|---------|---------|---------|-------------|-----|-----------|
+|userid |username |password |deptname |activity |professional |role |indate     |
+|-------|---------|---------|---------|---------|-------------|-----|-----------|
+|123123 |安尔碘多     |123456   |1        |1        |2            |1    |2020-11-04 |
+|123124 |纣王       |123456   |1        |1        |2            |1    |2020-11-04 |
+|-------|---------|---------|---------|---------|-------------|-----|-----------|
+
+2020-12-03 13:49:42.363 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.363 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.next() returned false
+2020-12-03 13:49:42.363 INFO  log4jdbc.log4j2 Line:197 - 2. ResultSet.close() returned void
+2020-12-03 13:49:42.363 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(indate) returned 2020-11-04
+2020-12-03 13:49:42.363 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@200b5d8c
+2020-12-03 13:49:42.363 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:49:42.364 INFO  log4jdbc.log4j2 Line:197 - 2. PreparedStatement.getMoreResults() returned false
+2020-12-03 13:49:42.364 INFO  log4jdbc.log4j2 Line:197 - 2. PreparedStatement.getUpdateCount() returned -1
+2020-12-03 13:49:42.364 INFO  log4jdbc.log4j2 Line:197 - 2. PreparedStatement.close() returned 
+2020-12-03 13:49:42.364 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.clearWarnings() returned 
+2020-12-03 13:49:42.364 INFO  log4jdbc.log4j2 Line:390 - 
+|-------|---------|---------|---------|---------|-------------|-----|-----------|
+|userid |username |password |deptname |activity |professional |role |indate     |
+|-------|---------|---------|---------|---------|-------------|-----|-----------|
+|123123 |安尔碘多     |123456   |1        |1        |2            |1    |2020-11-04 |
+|123124 |纣王       |123456   |1        |1        |2            |1    |2020-11-04 |
+|-------|---------|---------|---------|---------|-------------|-----|-----------|
+
+2020-12-03 13:49:42.364 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned false
+2020-12-03 13:49:42.365 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.close() returned void
+2020-12-03 13:49:42.365 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@2f36690c
+2020-12-03 13:49:42.365 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getMoreResults() returned false
+2020-12-03 13:49:42.365 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2020-12-03 13:49:42.365 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.close() returned 
+2020-12-03 13:49:42.365 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:51:28.945 INFO  me.zhengjie.AppRun Line:50  - Starting AppRun on LAPTOP-8HSE5ES7 with PID 51744 (started by lenovo in E:\work代码\NISadminHT)
+2020-12-03 13:51:28.948 INFO  me.zhengjie.AppRun Line:679 - The following profiles are active: dev
+2020-12-03 13:51:29.504 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:176 - 开始注册数据源
+2020-12-03 13:51:29.874 ERROR com.zaxxer.hikari.HikariConfig Line:493 - Failed to load driver class net.sf.log4jdbc.sql.jdbcapi.DriverSpy from HikariConfig class classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-12-03 13:51:29.925 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:42  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under '' to com.zaxxer.hikari.HikariDataSource:
+
+    Property: driverclassname
+    Value: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    Origin: "driverClassName" from property source "source"
+    Reason: Failed to load driver class net.sf.log4jdbc.sql.jdbcapi.DriverSpy in either of HikariConfig class loader or Thread context classloader
+
+Action:
+
+Update your application's configuration
+
+2020-12-03 13:51:59.926 INFO  me.zhengjie.AppRun Line:50  - Starting AppRun on LAPTOP-8HSE5ES7 with PID 37276 (started by lenovo in E:\work代码\NISadminHT)
+2020-12-03 13:51:59.929 INFO  me.zhengjie.AppRun Line:679 - The following profiles are active: dev
+2020-12-03 13:52:00.482 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:176 - 开始注册数据源
+2020-12-03 13:52:00.845 ERROR com.zaxxer.hikari.HikariConfig Line:493 - Failed to load driver class net.sf.log4jdbc.sql.jdbcapi.DriverSpy from HikariConfig class classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-12-03 13:52:00.894 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:42  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under '' to com.zaxxer.hikari.HikariDataSource:
+
+    Property: driverclassname
+    Value: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    Origin: "driverClassName" from property source "source"
+    Reason: Failed to load driver class net.sf.log4jdbc.sql.jdbcapi.DriverSpy in either of HikariConfig class loader or Thread context classloader
+
+Action:
+
+Update your application's configuration
+
+2020-12-03 13:52:29.310 INFO  me.zhengjie.AppRun Line:50  - Starting AppRun on LAPTOP-8HSE5ES7 with PID 29428 (started by lenovo in E:\work代码\NISadminHT)
+2020-12-03 13:52:29.312 INFO  me.zhengjie.AppRun Line:679 - The following profiles are active: dev
+2020-12-03 13:52:29.858 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:176 - 开始注册数据源
+2020-12-03 13:52:30.243 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:84  - 注册默认数据源成功
+2020-12-03 13:52:30.247 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:99  - 注册数据源orclDb成功
+2020-12-03 13:52:30.250 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:113 - 注册数据源成功，一共注册2个数据源
+2020-12-03 13:52:30.436 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-03 13:52:30.436 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-03 13:52:30.599 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:182 - Finished Spring Data repository scanning in 158ms. Found 22 repository interfaces.
+2020-12-03 13:52:30.890 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'asyncTaskProperties' of type [me.zhengjie.config.thread.AsyncTaskProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:52:30.892 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'asyncTaskExecutePool' of type [me.zhengjie.config.thread.AsyncTaskExecutePool$$EnhancerBySpringCGLIB$$b1b6890f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:52:30.964 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf7b19c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:52:31.069 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'redisConfig' of type [me.zhengjie.config.RedisConfig$$EnhancerBySpringCGLIB$$d8a35fd8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:52:31.108 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$5828e1fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:52:31.114 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:52:31.116 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4684240f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:52:31.118 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$7cfd84ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:52:31.124 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:52:31.437 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8000 (http)
+2020-12-03 13:52:31.452 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-12-03 13:52:31.453 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-12-03 13:52:31.458 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\lenovo\product\11.2.0\client_1\bin;D:\app\lenovo\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\work\node\;C:\Program Files\MySQL\MySQL Server 5.5\bin;E:\work\mysql-5.7.13-winx64\bin;D:\work\redis\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;E:\work\software\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Roaming\npm;E:\work\mysql-5.7.13-winx64\bin;C:\Users\lenovo\.dotnet\tools;.]
+2020-12-03 13:52:31.575 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-12-03 13:52:31.575 INFO  org.springframework.web.context.ContextLoader Line:285 - Root WebApplicationContext: initialization completed in 2202 ms
+2020-12-03 13:52:31.630 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-03 13:52:31.631 INFO  org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean Line:248 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2020-12-03 13:52:31.631 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:248 - Mapping filter: 'corsFilter' to: [/*]
+2020-12-03 13:52:31.632 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:186 - Servlet dispatcherServlet mapped to [/]
+2020-12-03 13:52:31.916 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2020-12-03 13:52:31.999 INFO  log4jdbc.log4j2 Line:365 - 1. Connection opened. {executed in 70ms} 
+2020-12-03 13:52:32.000 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.new Connection returned 
+2020-12-03 13:52:32.000 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getNetworkTimeout() returned 0
+2020-12-03 13:52:32.002 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isReadOnly() returned false
+2020-12-03 13:52:32.002 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-12-03 13:52:32.003 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(1) returned true
+2020-12-03 13:52:32.003 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getTransactionIsolation() returned 4
+2020-12-03 13:52:32.005 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2020-12-03 13:52:32.007 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@76ac68b0
+2020-12-03 13:52:32.011 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:52:32.021 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@3915e7c3
+2020-12-03 13:52:32.022 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:52:32.062 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-03 13:52:32.111 INFO  org.hibernate.Version Line:46  - HHH000412: Hibernate Core {5.3.7.Final}
+2020-12-03 13:52:32.113 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2020-12-03 13:52:32.114 INFO  log4jdbc.log4j2 Line:365 - 2. Connection opened. {executed in 3ms} 
+2020-12-03 13:52:32.114 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.new Connection returned 
+2020-12-03 13:52:32.115 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.isReadOnly() returned false
+2020-12-03 13:52:32.115 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.getAutoCommit() returned true
+2020-12-03 13:52:32.118 INFO  log4jdbc.log4j2 Line:365 - 3. Connection opened. {executed in 3ms} 
+2020-12-03 13:52:32.118 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.new Connection returned 
+2020-12-03 13:52:32.118 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.isReadOnly() returned false
+2020-12-03 13:52:32.118 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.getAutoCommit() returned true
+2020-12-03 13:52:32.121 INFO  log4jdbc.log4j2 Line:365 - 4. Connection opened. {executed in 2ms} 
+2020-12-03 13:52:32.121 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.new Connection returned 
+2020-12-03 13:52:32.121 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.isReadOnly() returned false
+2020-12-03 13:52:32.121 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.getAutoCommit() returned true
+2020-12-03 13:52:32.124 INFO  log4jdbc.log4j2 Line:365 - 5. Connection opened. {executed in 2ms} 
+2020-12-03 13:52:32.124 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.new Connection returned 
+2020-12-03 13:52:32.124 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.isReadOnly() returned false
+2020-12-03 13:52:32.124 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.getAutoCommit() returned true
+2020-12-03 13:52:32.126 INFO  log4jdbc.log4j2 Line:365 - 6. Connection opened. {executed in 1ms} 
+2020-12-03 13:52:32.127 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.new Connection returned 
+2020-12-03 13:52:32.127 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.isReadOnly() returned false
+2020-12-03 13:52:32.127 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.getAutoCommit() returned true
+2020-12-03 13:52:32.130 INFO  log4jdbc.log4j2 Line:365 - 7. Connection opened. {executed in 2ms} 
+2020-12-03 13:52:32.131 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.new Connection returned 
+2020-12-03 13:52:32.131 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.isReadOnly() returned false
+2020-12-03 13:52:32.131 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.getAutoCommit() returned true
+2020-12-03 13:52:32.134 INFO  log4jdbc.log4j2 Line:365 - 8. Connection opened. {executed in 3ms} 
+2020-12-03 13:52:32.134 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.new Connection returned 
+2020-12-03 13:52:32.134 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.isReadOnly() returned false
+2020-12-03 13:52:32.135 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.getAutoCommit() returned true
+2020-12-03 13:52:32.137 INFO  log4jdbc.log4j2 Line:365 - 9. Connection opened. {executed in 2ms} 
+2020-12-03 13:52:32.138 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.new Connection returned 
+2020-12-03 13:52:32.138 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.isReadOnly() returned false
+2020-12-03 13:52:32.138 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.getAutoCommit() returned true
+2020-12-03 13:52:32.140 INFO  log4jdbc.log4j2 Line:365 - 10. Connection opened. {executed in 2ms} 
+2020-12-03 13:52:32.140 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.new Connection returned 
+2020-12-03 13:52:32.141 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.isReadOnly() returned false
+2020-12-03 13:52:32.141 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.getAutoCommit() returned true
+2020-12-03 13:52:32.232 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-03 13:52:32.366 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@43a7203e
+2020-12-03 13:52:32.373 INFO  org.hibernate.dialect.Dialect Line:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-12-03 13:52:32.411 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:52:33.158 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-03 13:52:33.168 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-12-03 13:52:33.168 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@45375bdf
+2020-12-03 13:52:33.168 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:52:33.864 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-12-03 13:52:33.864 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@5655278d
+2020-12-03 13:52:33.865 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:52:33.887 INFO  org.quartz.impl.StdSchedulerFactory Line:1208 - Using default implementation for ThreadExecutor
+2020-12-03 13:52:33.896 INFO  org.quartz.core.SchedulerSignalerImpl Line:61  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-12-03 13:52:33.896 INFO  org.quartz.core.QuartzScheduler Line:229 - Quartz Scheduler v.2.3.0 created.
+2020-12-03 13:52:33.897 INFO  org.quartz.simpl.RAMJobStore Line:155 - RAMJobStore initialized.
+2020-12-03 13:52:33.898 INFO  org.quartz.core.QuartzScheduler Line:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-12-03 13:52:33.898 INFO  org.quartz.impl.StdSchedulerFactory Line:1362 - Quartz scheduler 'QuartzScheduler' initialized from an externally provided properties instance.
+2020-12-03 13:52:33.898 INFO  org.quartz.impl.StdSchedulerFactory Line:1366 - Quartz scheduler version: 2.3.0
+2020-12-03 13:52:33.899 INFO  org.quartz.core.QuartzScheduler Line:2287 - JobFactory set to: me.zhengjie.modules.quartz.config.QuartzConfig$QuartzJobFactory@30221cfa
+2020-12-03 13:52:33.899 INFO  org.quartz.core.QuartzScheduler Line:547 - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2020-12-03 13:52:34.955 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator Line:47  - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-03 13:52:35.787 INFO  org.springframework.security.web.DefaultSecurityFilterChain Line:43  - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33319df0, org.springframework.security.web.context.SecurityContextPersistenceFilter@c8d20bb, org.springframework.security.web.header.HeaderWriterFilter@22d23c27, org.springframework.security.web.authentication.logout.LogoutFilter@298cfe89, org.springframework.web.filter.CorsFilter@7e5b621b, me.zhengjie.modules.security.security.TokenFilter@73b71935, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59f56892, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27f6e2c3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d453075, org.springframework.security.web.session.SessionManagementFilter@789d45f7, org.springframework.security.web.access.ExceptionTranslationFilter@571b4bf6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@173602c0]
+2020-12-03 13:52:35.797 INFO  me.zhengjie.config.RedisConfig Line:123 - 初始化 -> [Redis CacheErrorHandler]
+2020-12-03 13:52:35.818 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-12-03 13:52:36.239 INFO  org.quartz.impl.StdSchedulerFactory Line:1208 - Using default implementation for ThreadExecutor
+2020-12-03 13:52:36.240 INFO  org.quartz.core.SchedulerSignalerImpl Line:61  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-12-03 13:52:36.240 INFO  org.quartz.core.QuartzScheduler Line:229 - Quartz Scheduler v.2.3.0 created.
+2020-12-03 13:52:36.240 INFO  org.quartz.simpl.RAMJobStore Line:155 - RAMJobStore initialized.
+2020-12-03 13:52:36.241 INFO  org.quartz.core.QuartzScheduler Line:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-12-03 13:52:36.241 INFO  org.quartz.impl.StdSchedulerFactory Line:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-12-03 13:52:36.241 INFO  org.quartz.impl.StdSchedulerFactory Line:1366 - Quartz scheduler version: 2.3.0
+2020-12-03 13:52:36.241 INFO  org.quartz.core.QuartzScheduler Line:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6fb3d3bb
+2020-12-03 13:52:36.334 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-12-03 13:52:36.348 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-12-03 13:52:36.394 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-12-03 13:52:36.556 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_1
+2020-12-03 13:52:36.558 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_1
+2020-12-03 13:52:36.561 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_1
+2020-12-03 13:52:36.563 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_1
+2020-12-03 13:52:36.566 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_1
+2020-12-03 13:52:36.585 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_2
+2020-12-03 13:52:36.586 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_2
+2020-12-03 13:52:36.590 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_2
+2020-12-03 13:52:36.592 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_2
+2020-12-03 13:52:36.600 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_2
+2020-12-03 13:52:36.602 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: uploadUsingPOST_1
+2020-12-03 13:52:36.603 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_3
+2020-12-03 13:52:36.606 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_3
+2020-12-03 13:52:36.609 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_3
+2020-12-03 13:52:36.613 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_3
+2020-12-03 13:52:36.614 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_4
+2020-12-03 13:52:36.617 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_4
+2020-12-03 13:52:36.619 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_4
+2020-12-03 13:52:36.620 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_3
+2020-12-03 13:52:36.625 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_4
+2020-12-03 13:52:36.626 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_5
+2020-12-03 13:52:36.628 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_5
+2020-12-03 13:52:36.630 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_5
+2020-12-03 13:52:36.632 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_4
+2020-12-03 13:52:36.634 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_5
+2020-12-03 13:52:36.635 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_6
+2020-12-03 13:52:36.639 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_6
+2020-12-03 13:52:36.640 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_5
+2020-12-03 13:52:36.641 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryConfigUsingGET_1
+2020-12-03 13:52:36.646 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateConfigUsingPUT_1
+2020-12-03 13:52:36.648 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_7
+2020-12-03 13:52:36.651 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_6
+2020-12-03 13:52:36.655 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryTablesUsingGET_1
+2020-12-03 13:52:36.687 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_6
+2020-12-03 13:52:36.688 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_7
+2020-12-03 13:52:36.691 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_6
+2020-12-03 13:52:36.694 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_8
+2020-12-03 13:52:36.695 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_7
+2020-12-03 13:52:36.697 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_7
+2020-12-03 13:52:36.698 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_8
+2020-12-03 13:52:36.701 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_7
+2020-12-03 13:52:36.702 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_9
+2020-12-03 13:52:36.705 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_8
+2020-12-03 13:52:36.706 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: uploadUsingPOST_2
+2020-12-03 13:52:36.710 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_8
+2020-12-03 13:52:36.713 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_10
+2020-12-03 13:52:36.721 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_8
+2020-12-03 13:52:36.722 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_9
+2020-12-03 13:52:36.724 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_9
+2020-12-03 13:52:36.725 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: getSuperiorUsingPOST_1
+2020-12-03 13:52:36.726 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_11
+2020-12-03 13:52:36.728 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_12
+2020-12-03 13:52:36.729 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_9
+2020-12-03 13:52:36.730 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_13
+2020-12-03 13:52:36.731 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_10
+2020-12-03 13:52:36.731 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_10
+2020-12-03 13:52:36.732 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_14
+2020-12-03 13:52:36.733 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_11
+2020-12-03 13:52:36.735 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_11
+2020-12-03 13:52:36.737 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_12
+2020-12-03 13:52:36.739 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_15
+2020-12-03 13:52:36.739 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryConfigUsingGET_2
+2020-12-03 13:52:36.741 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateConfigUsingPUT_2
+2020-12-03 13:52:36.742 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: uploadUsingPOST_3
+2020-12-03 13:52:36.746 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_9
+2020-12-03 13:52:36.747 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_12
+2020-12-03 13:52:36.749 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_13
+2020-12-03 13:52:36.754 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_16
+2020-12-03 13:52:36.756 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_10
+2020-12-03 13:52:36.757 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_11
+2020-12-03 13:52:36.770 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_10
+2020-12-03 13:52:36.771 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_13
+2020-12-03 13:52:36.774 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_14
+2020-12-03 13:52:36.775 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_17
+2020-12-03 13:52:36.776 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_18
+2020-12-03 13:52:36.778 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_19
+2020-12-03 13:52:36.779 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_12
+2020-12-03 13:52:36.782 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_11
+2020-12-03 13:52:36.783 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_14
+2020-12-03 13:52:36.785 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_15
+2020-12-03 13:52:36.787 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_20
+2020-12-03 13:52:36.788 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: testConnectUsingPOST_1
+2020-12-03 13:52:36.789 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_13
+2020-12-03 13:52:36.798 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_12
+2020-12-03 13:52:36.798 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_15
+2020-12-03 13:52:36.803 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_16
+2020-12-03 13:52:36.805 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_21
+2020-12-03 13:52:36.806 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_14
+2020-12-03 13:52:36.823 INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean Line:726 - Starting Quartz Scheduler now
+2020-12-03 13:52:36.824 INFO  org.quartz.core.QuartzScheduler Line:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-12-03 13:52:36.855 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8000 (http) with context path ''
+2020-12-03 13:52:36.858 INFO  me.zhengjie.AppRun Line:59  - Started AppRun in 7.958 seconds (JVM running for 8.866)
+2020-12-03 13:52:36.860 INFO  me.zhengjie.modules.quartz.config.JobRunner Line:48  - --------------------注入定时任务---------------------
+2020-12-03 13:52:36.896 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-12-03 13:52:36.907 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.new PreparedStatement returned 
+2020-12-03 13:52:36.907 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.prepareStatement(select quartzjob0_.job_id as job_id1_14_, quartzjob0_.create_by as create_b2_14_, quartzjob0_.create_time as create_t3_14_, quartzjob0_.update_time as update_t4_14_, quartzjob0_.update_by as update_b5_14_, quartzjob0_.bean_name as bean_nam6_14_, quartzjob0_.cron_expression as cron_exp7_14_, quartzjob0_.description as descript8_14_, quartzjob0_.email as email9_14_, quartzjob0_.is_pause as is_paus10_14_, quartzjob0_.job_name as job_nam11_14_, quartzjob0_.method_name as method_12_14_, quartzjob0_.params as params13_14_, quartzjob0_.pause_after_failure as pause_a14_14_, quartzjob0_.person_in_charge as person_15_14_, quartzjob0_.sub_task as sub_tas16_14_ from sys_quartz_job quartzjob0_ where quartzjob0_.is_pause=0) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@c358f32
+2020-12-03 13:52:36.913 INFO  log4jdbc.log4j2 Line:243 - 1. select quartzjob0_.job_id as job_id1_14_, quartzjob0_.create_by as create_b2_14_, quartzjob0_.create_time 
+as create_t3_14_, quartzjob0_.update_time as update_t4_14_, quartzjob0_.update_by as update_b5_14_, 
+quartzjob0_.bean_name as bean_nam6_14_, quartzjob0_.cron_expression as cron_exp7_14_, quartzjob0_.description 
+as descript8_14_, quartzjob0_.email as email9_14_, quartzjob0_.is_pause as is_paus10_14_, quartzjob0_.job_name 
+as job_nam11_14_, quartzjob0_.method_name as method_12_14_, quartzjob0_.params as params13_14_, 
+quartzjob0_.pause_after_failure as pause_a14_14_, quartzjob0_.person_in_charge as person_15_14_, 
+quartzjob0_.sub_task as sub_tas16_14_ from sys_quartz_job quartzjob0_ where quartzjob0_.is_pause=0  {executed in 1 ms}
+2020-12-03 13:52:36.916 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.new ResultSet returned 
+2020-12-03 13:52:36.916 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.executeQuery() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@45dbbb97
+2020-12-03 13:52:36.921 INFO  log4jdbc.log4j2 Line:390 - 
+|-------|----------|------------|------------|----------|----------|----------------|------------|------|---------|---------|------------|-------|--------------------|-----------------|---------|
+|job_id |create_by |create_time |update_time |update_by |bean_name |cron_expression |description |email |is_pause |job_name |method_name |params |pause_after_failure |person_in_charge |sub_task |
+|-------|----------|------------|------------|----------|----------|----------------|------------|------|---------|---------|------------|-------|--------------------|-----------------|---------|
+|-------|----------|------------|------------|----------|----------|----------------|------------|------|---------|---------|------------|-------|--------------------|-----------------|---------|
+
+2020-12-03 13:52:36.921 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned false
+2020-12-03 13:52:36.922 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.close() returned void
+2020-12-03 13:52:36.923 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getMaxRows() returned 0
+2020-12-03 13:52:36.923 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getQueryTimeout() returned 0
+2020-12-03 13:52:36.923 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.close() returned 
+2020-12-03 13:52:36.924 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:52:36.924 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:52:36.925 INFO  me.zhengjie.modules.quartz.config.JobRunner Line:51  - --------------------定时任务注入完成---------------------
+2020-12-03 13:52:43.387 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 13:52:43.387 INFO  org.springframework.web.servlet.DispatcherServlet Line:521 - Initializing Servlet 'dispatcherServlet'
+2020-12-03 13:52:43.399 INFO  org.springframework.web.servlet.DispatcherServlet Line:543 - Completed initialization in 12 ms
+2020-12-03 13:52:43.493 INFO  io.lettuce.core.EpollProvider Line:101 - Starting without optional epoll library
+2020-12-03 13:52:43.495 INFO  io.lettuce.core.KqueueProvider Line:101 - Starting without optional kqueue library
+2020-12-03 13:52:44.297 INFO  me.zhengjie.yuangan.controller.GroupManagerController Line:46  - queryGroupList
+2020-12-03 13:52:44.299 INFO  me.zhengjie.yuangan.controller.GroupManagerController Line:46  - queryGroupList
+2020-12-03 13:52:44.319 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-2 - Starting...
+2020-12-03 13:52:44.320 WARN  com.zaxxer.hikari.util.DriverDataSource Line:68  - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2020-12-03 13:52:44.463 INFO  com.zaxxer.hikari.pool.PoolBase Line:525 - HikariPool-2 - Driver does not support get/set network timeout for connections. (null)
+2020-12-03 13:52:44.466 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-2 - Start completed.
+2020-12-03 13:53:03.720 INFO  me.zhengjie.yuangan.controller.GroupManagerController Line:46  - queryGroupList
+2020-12-03 13:53:50.761 INFO  me.zhengjie.AppRun Line:50  - Starting AppRun on LAPTOP-8HSE5ES7 with PID 39144 (started by lenovo in E:\work代码\NISadminHT)
+2020-12-03 13:53:50.764 INFO  me.zhengjie.AppRun Line:679 - The following profiles are active: dev
+2020-12-03 13:53:51.316 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:176 - 开始注册数据源
+2020-12-03 13:53:51.710 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:84  - 注册默认数据源成功
+2020-12-03 13:53:51.714 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:99  - 注册数据源orclDb成功
+2020-12-03 13:53:51.716 INFO  me.zhengjie.config.DynamicDataSourceRegister Line:113 - 注册数据源成功，一共注册2个数据源
+2020-12-03 13:53:51.906 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-03 13:53:51.906 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-03 13:53:52.072 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:182 - Finished Spring Data repository scanning in 162ms. Found 22 repository interfaces.
+2020-12-03 13:53:52.364 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'asyncTaskProperties' of type [me.zhengjie.config.thread.AsyncTaskProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:53:52.365 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'asyncTaskExecutePool' of type [me.zhengjie.config.thread.AsyncTaskExecutePool$$EnhancerBySpringCGLIB$$f6b94f90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:53:52.441 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$47de041] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:53:52.542 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'redisConfig' of type [me.zhengjie.config.RedisConfig$$EnhancerBySpringCGLIB$$1da62659] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:53:52.591 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$9d2ba87b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:53:52.597 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:53:52.599 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@136ccbfe' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:53:52.602 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$c2004b2d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:53:52.610 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:53:52.933 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8000 (http)
+2020-12-03 13:53:52.948 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-12-03 13:53:52.949 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-12-03 13:53:52.954 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\lenovo\product\11.2.0\client_1\bin;D:\app\lenovo\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\work\node\;C:\Program Files\MySQL\MySQL Server 5.5\bin;E:\work\mysql-5.7.13-winx64\bin;D:\work\redis\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;E:\work\software\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Roaming\npm;E:\work\mysql-5.7.13-winx64\bin;C:\Users\lenovo\.dotnet\tools;.]
+2020-12-03 13:53:53.075 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-12-03 13:53:53.075 INFO  org.springframework.web.context.ContextLoader Line:285 - Root WebApplicationContext: initialization completed in 2269 ms
+2020-12-03 13:53:53.132 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-03 13:53:53.133 INFO  org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean Line:248 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2020-12-03 13:53:53.134 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:248 - Mapping filter: 'corsFilter' to: [/*]
+2020-12-03 13:53:53.134 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:186 - Servlet dispatcherServlet mapped to [/]
+2020-12-03 13:53:53.415 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2020-12-03 13:53:53.506 INFO  log4jdbc.log4j2 Line:365 - 1. Connection opened. {executed in 74ms} 
+2020-12-03 13:53:53.507 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.new Connection returned 
+2020-12-03 13:53:53.507 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getNetworkTimeout() returned 0
+2020-12-03 13:53:53.508 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isReadOnly() returned false
+2020-12-03 13:53:53.509 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-12-03 13:53:53.509 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(1) returned true
+2020-12-03 13:53:53.510 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getTransactionIsolation() returned 4
+2020-12-03 13:53:53.512 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2020-12-03 13:53:53.514 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@13516600
+2020-12-03 13:53:53.518 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:53:53.529 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@1ec88aa1
+2020-12-03 13:53:53.530 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:53:53.572 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-03 13:53:53.625 INFO  log4jdbc.log4j2 Line:365 - 2. Connection opened. {executed in 3ms} 
+2020-12-03 13:53:53.625 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.new Connection returned 
+2020-12-03 13:53:53.626 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.isReadOnly() returned false
+2020-12-03 13:53:53.626 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.getAutoCommit() returned true
+2020-12-03 13:53:53.628 INFO  org.hibernate.Version Line:46  - HHH000412: Hibernate Core {5.3.7.Final}
+2020-12-03 13:53:53.629 INFO  log4jdbc.log4j2 Line:365 - 3. Connection opened. {executed in 3ms} 
+2020-12-03 13:53:53.629 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.new Connection returned 
+2020-12-03 13:53:53.629 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.isReadOnly() returned false
+2020-12-03 13:53:53.630 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.getAutoCommit() returned true
+2020-12-03 13:53:53.630 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2020-12-03 13:53:53.632 INFO  log4jdbc.log4j2 Line:365 - 4. Connection opened. {executed in 2ms} 
+2020-12-03 13:53:53.633 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.new Connection returned 
+2020-12-03 13:53:53.633 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.isReadOnly() returned false
+2020-12-03 13:53:53.633 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.getAutoCommit() returned true
+2020-12-03 13:53:53.635 INFO  log4jdbc.log4j2 Line:365 - 5. Connection opened. {executed in 2ms} 
+2020-12-03 13:53:53.636 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.new Connection returned 
+2020-12-03 13:53:53.636 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.isReadOnly() returned false
+2020-12-03 13:53:53.636 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.getAutoCommit() returned true
+2020-12-03 13:53:53.639 INFO  log4jdbc.log4j2 Line:365 - 6. Connection opened. {executed in 3ms} 
+2020-12-03 13:53:53.639 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.new Connection returned 
+2020-12-03 13:53:53.640 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.isReadOnly() returned false
+2020-12-03 13:53:53.640 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.getAutoCommit() returned true
+2020-12-03 13:53:53.643 INFO  log4jdbc.log4j2 Line:365 - 7. Connection opened. {executed in 2ms} 
+2020-12-03 13:53:53.643 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.new Connection returned 
+2020-12-03 13:53:53.644 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.isReadOnly() returned false
+2020-12-03 13:53:53.644 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.getAutoCommit() returned true
+2020-12-03 13:53:53.646 INFO  log4jdbc.log4j2 Line:365 - 8. Connection opened. {executed in 2ms} 
+2020-12-03 13:53:53.647 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.new Connection returned 
+2020-12-03 13:53:53.647 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.isReadOnly() returned false
+2020-12-03 13:53:53.647 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.getAutoCommit() returned true
+2020-12-03 13:53:53.649 INFO  log4jdbc.log4j2 Line:365 - 9. Connection opened. {executed in 2ms} 
+2020-12-03 13:53:53.649 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.new Connection returned 
+2020-12-03 13:53:53.650 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.isReadOnly() returned false
+2020-12-03 13:53:53.650 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.getAutoCommit() returned true
+2020-12-03 13:53:53.652 INFO  log4jdbc.log4j2 Line:365 - 10. Connection opened. {executed in 2ms} 
+2020-12-03 13:53:53.652 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.new Connection returned 
+2020-12-03 13:53:53.653 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.isReadOnly() returned false
+2020-12-03 13:53:53.653 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.getAutoCommit() returned true
+2020-12-03 13:53:53.753 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-03 13:53:53.898 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@2707c790
+2020-12-03 13:53:53.905 INFO  org.hibernate.dialect.Dialect Line:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-12-03 13:53:53.944 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:53:54.737 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-03 13:53:54.748 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-12-03 13:53:54.748 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@194eae3e
+2020-12-03 13:53:54.748 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:53:55.467 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-12-03 13:53:55.468 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@2f6d8c9
+2020-12-03 13:53:55.468 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:53:55.491 INFO  org.quartz.impl.StdSchedulerFactory Line:1208 - Using default implementation for ThreadExecutor
+2020-12-03 13:53:55.499 INFO  org.quartz.core.SchedulerSignalerImpl Line:61  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-12-03 13:53:55.500 INFO  org.quartz.core.QuartzScheduler Line:229 - Quartz Scheduler v.2.3.0 created.
+2020-12-03 13:53:55.500 INFO  org.quartz.simpl.RAMJobStore Line:155 - RAMJobStore initialized.
+2020-12-03 13:53:55.501 INFO  org.quartz.core.QuartzScheduler Line:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-12-03 13:53:55.501 INFO  org.quartz.impl.StdSchedulerFactory Line:1362 - Quartz scheduler 'QuartzScheduler' initialized from an externally provided properties instance.
+2020-12-03 13:53:55.501 INFO  org.quartz.impl.StdSchedulerFactory Line:1366 - Quartz scheduler version: 2.3.0
+2020-12-03 13:53:55.502 INFO  org.quartz.core.QuartzScheduler Line:2287 - JobFactory set to: me.zhengjie.modules.quartz.config.QuartzConfig$QuartzJobFactory@47224d5d
+2020-12-03 13:53:55.503 INFO  org.quartz.core.QuartzScheduler Line:547 - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2020-12-03 13:53:56.592 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator Line:47  - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-03 13:53:57.449 INFO  org.springframework.security.web.DefaultSecurityFilterChain Line:43  - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70e07ef8, org.springframework.security.web.context.SecurityContextPersistenceFilter@36def543, org.springframework.security.web.header.HeaderWriterFilter@6d3a56ea, org.springframework.security.web.authentication.logout.LogoutFilter@64ba5a71, org.springframework.web.filter.CorsFilter@73ca34e7, me.zhengjie.modules.security.security.TokenFilter@771b2b5b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7859fc7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2bc52b08, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1aa64998, org.springframework.security.web.session.SessionManagementFilter@22f756c5, org.springframework.security.web.access.ExceptionTranslationFilter@1ebcfcf1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@70736b19]
+2020-12-03 13:53:57.459 INFO  me.zhengjie.config.RedisConfig Line:123 - 初始化 -> [Redis CacheErrorHandler]
+2020-12-03 13:53:57.481 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-12-03 13:53:57.911 INFO  org.quartz.impl.StdSchedulerFactory Line:1208 - Using default implementation for ThreadExecutor
+2020-12-03 13:53:57.912 INFO  org.quartz.core.SchedulerSignalerImpl Line:61  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-12-03 13:53:57.912 INFO  org.quartz.core.QuartzScheduler Line:229 - Quartz Scheduler v.2.3.0 created.
+2020-12-03 13:53:57.912 INFO  org.quartz.simpl.RAMJobStore Line:155 - RAMJobStore initialized.
+2020-12-03 13:53:57.913 INFO  org.quartz.core.QuartzScheduler Line:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-12-03 13:53:57.913 INFO  org.quartz.impl.StdSchedulerFactory Line:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-12-03 13:53:57.913 INFO  org.quartz.impl.StdSchedulerFactory Line:1366 - Quartz scheduler version: 2.3.0
+2020-12-03 13:53:57.913 INFO  org.quartz.core.QuartzScheduler Line:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@59b8a801
+2020-12-03 13:53:58.008 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-12-03 13:53:58.022 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-12-03 13:53:58.068 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-12-03 13:53:58.238 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_1
+2020-12-03 13:53:58.239 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_1
+2020-12-03 13:53:58.243 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_1
+2020-12-03 13:53:58.245 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_1
+2020-12-03 13:53:58.247 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_1
+2020-12-03 13:53:58.265 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_2
+2020-12-03 13:53:58.266 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_2
+2020-12-03 13:53:58.269 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_2
+2020-12-03 13:53:58.271 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_2
+2020-12-03 13:53:58.279 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_2
+2020-12-03 13:53:58.280 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: uploadUsingPOST_1
+2020-12-03 13:53:58.282 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_3
+2020-12-03 13:53:58.285 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_3
+2020-12-03 13:53:58.288 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_3
+2020-12-03 13:53:58.291 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_3
+2020-12-03 13:53:58.292 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_4
+2020-12-03 13:53:58.295 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_4
+2020-12-03 13:53:58.298 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_4
+2020-12-03 13:53:58.299 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_3
+2020-12-03 13:53:58.303 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_4
+2020-12-03 13:53:58.304 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_5
+2020-12-03 13:53:58.306 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_5
+2020-12-03 13:53:58.309 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_5
+2020-12-03 13:53:58.310 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_4
+2020-12-03 13:53:58.312 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_5
+2020-12-03 13:53:58.313 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_6
+2020-12-03 13:53:58.317 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_6
+2020-12-03 13:53:58.318 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_5
+2020-12-03 13:53:58.319 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryConfigUsingGET_1
+2020-12-03 13:53:58.324 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateConfigUsingPUT_1
+2020-12-03 13:53:58.325 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_7
+2020-12-03 13:53:58.328 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_6
+2020-12-03 13:53:58.332 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryTablesUsingGET_1
+2020-12-03 13:53:58.364 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_6
+2020-12-03 13:53:58.365 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_7
+2020-12-03 13:53:58.367 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_6
+2020-12-03 13:53:58.369 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_8
+2020-12-03 13:53:58.370 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_7
+2020-12-03 13:53:58.373 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_7
+2020-12-03 13:53:58.374 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_8
+2020-12-03 13:53:58.376 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_7
+2020-12-03 13:53:58.378 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_9
+2020-12-03 13:53:58.381 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_8
+2020-12-03 13:53:58.382 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: uploadUsingPOST_2
+2020-12-03 13:53:58.386 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_8
+2020-12-03 13:53:58.388 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_10
+2020-12-03 13:53:58.397 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_8
+2020-12-03 13:53:58.398 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_9
+2020-12-03 13:53:58.401 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_9
+2020-12-03 13:53:58.401 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: getSuperiorUsingPOST_1
+2020-12-03 13:53:58.403 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_11
+2020-12-03 13:53:58.404 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_12
+2020-12-03 13:53:58.405 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_9
+2020-12-03 13:53:58.406 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_13
+2020-12-03 13:53:58.407 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_10
+2020-12-03 13:53:58.408 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_10
+2020-12-03 13:53:58.409 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_14
+2020-12-03 13:53:58.410 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_11
+2020-12-03 13:53:58.412 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_11
+2020-12-03 13:53:58.414 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_12
+2020-12-03 13:53:58.416 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_15
+2020-12-03 13:53:58.417 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryConfigUsingGET_2
+2020-12-03 13:53:58.419 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateConfigUsingPUT_2
+2020-12-03 13:53:58.420 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: uploadUsingPOST_3
+2020-12-03 13:53:58.424 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_9
+2020-12-03 13:53:58.425 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_12
+2020-12-03 13:53:58.428 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_13
+2020-12-03 13:53:58.432 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_16
+2020-12-03 13:53:58.434 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_10
+2020-12-03 13:53:58.435 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_11
+2020-12-03 13:53:58.447 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_10
+2020-12-03 13:53:58.448 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_13
+2020-12-03 13:53:58.450 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_14
+2020-12-03 13:53:58.452 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_17
+2020-12-03 13:53:58.453 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_18
+2020-12-03 13:53:58.455 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_19
+2020-12-03 13:53:58.456 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_12
+2020-12-03 13:53:58.459 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_11
+2020-12-03 13:53:58.460 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_14
+2020-12-03 13:53:58.463 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_15
+2020-12-03 13:53:58.464 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_20
+2020-12-03 13:53:58.465 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: testConnectUsingPOST_1
+2020-12-03 13:53:58.466 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_13
+2020-12-03 13:53:58.474 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: createUsingPOST_12
+2020-12-03 13:53:58.475 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: deleteUsingDELETE_15
+2020-12-03 13:53:58.479 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: downloadUsingGET_16
+2020-12-03 13:53:58.480 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: queryUsingGET_21
+2020-12-03 13:53:58.481 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPUT_14
+2020-12-03 13:53:58.497 INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean Line:726 - Starting Quartz Scheduler now
+2020-12-03 13:53:58.497 INFO  org.quartz.core.QuartzScheduler Line:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-12-03 13:53:58.528 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8000 (http) with context path ''
+2020-12-03 13:53:58.531 INFO  me.zhengjie.AppRun Line:59  - Started AppRun in 8.157 seconds (JVM running for 9.047)
+2020-12-03 13:53:58.533 INFO  me.zhengjie.modules.quartz.config.JobRunner Line:48  - --------------------注入定时任务---------------------
+2020-12-03 13:53:58.570 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-12-03 13:53:58.581 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.new PreparedStatement returned 
+2020-12-03 13:53:58.581 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.prepareStatement(select quartzjob0_.job_id as job_id1_14_, quartzjob0_.create_by as create_b2_14_, quartzjob0_.create_time as create_t3_14_, quartzjob0_.update_time as update_t4_14_, quartzjob0_.update_by as update_b5_14_, quartzjob0_.bean_name as bean_nam6_14_, quartzjob0_.cron_expression as cron_exp7_14_, quartzjob0_.description as descript8_14_, quartzjob0_.email as email9_14_, quartzjob0_.is_pause as is_paus10_14_, quartzjob0_.job_name as job_nam11_14_, quartzjob0_.method_name as method_12_14_, quartzjob0_.params as params13_14_, quartzjob0_.pause_after_failure as pause_a14_14_, quartzjob0_.person_in_charge as person_15_14_, quartzjob0_.sub_task as sub_tas16_14_ from sys_quartz_job quartzjob0_ where quartzjob0_.is_pause=0) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@21b96db
+2020-12-03 13:53:58.587 INFO  log4jdbc.log4j2 Line:243 - 1. select quartzjob0_.job_id as job_id1_14_, quartzjob0_.create_by as create_b2_14_, quartzjob0_.create_time 
+as create_t3_14_, quartzjob0_.update_time as update_t4_14_, quartzjob0_.update_by as update_b5_14_, 
+quartzjob0_.bean_name as bean_nam6_14_, quartzjob0_.cron_expression as cron_exp7_14_, quartzjob0_.description 
+as descript8_14_, quartzjob0_.email as email9_14_, quartzjob0_.is_pause as is_paus10_14_, quartzjob0_.job_name 
+as job_nam11_14_, quartzjob0_.method_name as method_12_14_, quartzjob0_.params as params13_14_, 
+quartzjob0_.pause_after_failure as pause_a14_14_, quartzjob0_.person_in_charge as person_15_14_, 
+quartzjob0_.sub_task as sub_tas16_14_ from sys_quartz_job quartzjob0_ where quartzjob0_.is_pause=0  {executed in 1 ms}
+2020-12-03 13:53:58.590 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.new ResultSet returned 
+2020-12-03 13:53:58.590 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.executeQuery() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@498d7c57
+2020-12-03 13:53:58.595 INFO  log4jdbc.log4j2 Line:390 - 
+|-------|----------|------------|------------|----------|----------|----------------|------------|------|---------|---------|------------|-------|--------------------|-----------------|---------|
+|job_id |create_by |create_time |update_time |update_by |bean_name |cron_expression |description |email |is_pause |job_name |method_name |params |pause_after_failure |person_in_charge |sub_task |
+|-------|----------|------------|------------|----------|----------|----------------|------------|------|---------|---------|------------|-------|--------------------|-----------------|---------|
+|-------|----------|------------|------------|----------|----------|----------------|------------|------|---------|---------|------------|-------|--------------------|-----------------|---------|
+
+2020-12-03 13:53:58.595 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned false
+2020-12-03 13:53:58.596 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.close() returned void
+2020-12-03 13:53:58.596 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getMaxRows() returned 0
+2020-12-03 13:53:58.596 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getQueryTimeout() returned 0
+2020-12-03 13:53:58.597 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.close() returned 
+2020-12-03 13:53:58.598 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:53:58.598 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:53:58.599 INFO  me.zhengjie.modules.quartz.config.JobRunner Line:51  - --------------------定时任务注入完成---------------------
+2020-12-03 13:54:07.413 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 13:54:07.414 INFO  org.springframework.web.servlet.DispatcherServlet Line:521 - Initializing Servlet 'dispatcherServlet'
+2020-12-03 13:54:07.428 INFO  org.springframework.web.servlet.DispatcherServlet Line:543 - Completed initialization in 14 ms
+2020-12-03 13:54:07.531 INFO  io.lettuce.core.EpollProvider Line:101 - Starting without optional epoll library
+2020-12-03 13:54:07.533 INFO  io.lettuce.core.KqueueProvider Line:101 - Starting without optional kqueue library
+2020-12-03 13:54:08.374 INFO  me.zhengjie.yuangan.controller.GroupManagerController Line:46  - queryGroupList
+2020-12-03 13:54:08.400 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-2 - Starting...
+2020-12-03 13:54:08.400 WARN  com.zaxxer.hikari.util.DriverDataSource Line:68  - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2020-12-03 13:54:08.541 INFO  com.zaxxer.hikari.pool.PoolBase Line:525 - HikariPool-2 - Driver does not support get/set network timeout for connections. (null)
+2020-12-03 13:54:08.545 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-2 - Start completed.
+2020-12-03 13:54:25.391 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-12-03 13:54:25.392 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-12-03 13:54:25.392 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.new PreparedStatement returned 
+2020-12-03 13:54:25.393 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.prepareStatement(select userid,username,password,deptname,
+            activity,professional,role,DATE_FORMAT(indate, '%Y-%m-%d')  indate
+        from NOA_USER t
+        where  (t.userid like '%%' or( t.username like '%%' or '' =?) )) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@36492872
+2020-12-03 13:54:25.393 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.setString(1, "") returned 
+2020-12-03 13:54:25.394 INFO  log4jdbc.log4j2 Line:243 - 1. select userid,username,password,deptname, activity,professional,role,DATE_FORMAT(indate, '%Y-%m-%d') 
+indate from NOA_USER t where (t.userid like '%%' or( t.username like '%%' or '' ='') )  {executed in 1 ms}
+2020-12-03 13:54:25.394 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.execute() returned true
+2020-12-03 13:54:25.395 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.new ResultSet returned 
+2020-12-03 13:54:25.395 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@746c59aa
+2020-12-03 13:54:25.395 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@756f1c02 - Field level information: 
+	com.mysql.cj.result.Field@ad45086[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=userid,originalColumnName=USERID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags= PRIMARY_KEY, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@7521f316[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=username,originalColumnName=USERNAME,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@63965511[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=password,originalColumnName=PASSWORD,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@6e14da6d[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=deptname,originalColumnName=DEPTNAME,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@466ce749[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=activity,originalColumnName=ACTIVITY,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@3caf15d1[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=professional,originalColumnName=PROFESSIONAL,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@6d40f188[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=role,originalColumnName=ROLE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@254f99ff[catalog=null,tableName=null,originalTableName=null,columnName=indate,originalColumnName=null,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=45, charsetName=utf8]
+2020-12-03 13:54:25.396 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getType() returned 1003
+2020-12-03 13:54:25.397 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned true
+2020-12-03 13:54:25.398 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(userid) returned 123123
+2020-12-03 13:54:25.398 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.399 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(username) returned 安尔碘多
+2020-12-03 13:54:25.399 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.399 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(password) returned 123456
+2020-12-03 13:54:25.400 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.400 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(deptname) returned 1
+2020-12-03 13:54:25.400 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.400 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(activity) returned 1
+2020-12-03 13:54:25.400 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.400 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(professional) returned 2
+2020-12-03 13:54:25.401 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.401 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(role) returned 1
+2020-12-03 13:54:25.401 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.401 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(indate) returned 2020-11-04
+2020-12-03 13:54:25.402 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.402 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned true
+2020-12-03 13:54:25.402 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(userid) returned 123124
+2020-12-03 13:54:25.402 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.402 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(username) returned 纣王
+2020-12-03 13:54:25.402 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.403 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(password) returned 123456
+2020-12-03 13:54:25.403 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.403 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(deptname) returned 1
+2020-12-03 13:54:25.403 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.403 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(activity) returned 1
+2020-12-03 13:54:25.404 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.404 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(professional) returned 2
+2020-12-03 13:54:25.404 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.404 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(role) returned 1
+2020-12-03 13:54:25.404 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.404 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(indate) returned 2020-11-04
+2020-12-03 13:54:25.404 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.405 INFO  log4jdbc.log4j2 Line:390 - 
+|-------|---------|---------|---------|---------|-------------|-----|-----------|
+|userid |username |password |deptname |activity |professional |role |indate     |
+|-------|---------|---------|---------|---------|-------------|-----|-----------|
+|123123 |安尔碘多     |123456   |1        |1        |2            |1    |2020-11-04 |
+|123124 |纣王       |123456   |1        |1        |2            |1    |2020-11-04 |
+|-------|---------|---------|---------|---------|-------------|-----|-----------|
+
+2020-12-03 13:54:25.405 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned false
+2020-12-03 13:54:25.405 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.close() returned void
+2020-12-03 13:54:25.406 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@1b49066c
+2020-12-03 13:54:25.406 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getMoreResults() returned false
+2020-12-03 13:54:25.406 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2020-12-03 13:54:25.406 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.close() returned 
+2020-12-03 13:54:25.406 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-03 13:54:25.684 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-12-03 13:54:25.684 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.new PreparedStatement returned 
+2020-12-03 13:54:25.685 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.prepareStatement(select userid,username,password,deptname,
+            activity,professional,role,DATE_FORMAT(indate, '%Y-%m-%d')  indate
+        from NOA_USER t
+        where  (t.userid like '%%' or( t.username like '%%' or '' =?) )) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@5b3c2233
+2020-12-03 13:54:25.685 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.setString(1, "") returned 
+2020-12-03 13:54:25.686 INFO  log4jdbc.log4j2 Line:243 - 1. select userid,username,password,deptname, activity,professional,role,DATE_FORMAT(indate, '%Y-%m-%d') 
+indate from NOA_USER t where (t.userid like '%%' or( t.username like '%%' or '' ='') )  {executed in 1 ms}
+2020-12-03 13:54:25.686 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.execute() returned true
+2020-12-03 13:54:25.687 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.new ResultSet returned 
+2020-12-03 13:54:25.687 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@55fbc724
+2020-12-03 13:54:25.687 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@51c44943 - Field level information: 
+	com.mysql.cj.result.Field@14c6cd1f[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=userid,originalColumnName=USERID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags= PRIMARY_KEY, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@2ed1580e[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=username,originalColumnName=USERNAME,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@25987817[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=password,originalColumnName=PASSWORD,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@5665b3b6[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=deptname,originalColumnName=DEPTNAME,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@74e93250[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=activity,originalColumnName=ACTIVITY,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@505c15eb[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=professional,originalColumnName=PROFESSIONAL,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@36628737[catalog=nisoa,tableName=t,originalTableName=noa_user,columnName=role,originalColumnName=ROLE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.cj.result.Field@4d617a4e[catalog=null,tableName=null,originalTableName=null,columnName=indate,originalColumnName=null,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=45, charsetName=utf8]
+2020-12-03 13:54:25.687 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getType() returned 1003
+2020-12-03 13:54:25.688 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned true
+2020-12-03 13:54:25.688 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(userid) returned 123123
+2020-12-03 13:54:25.688 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.688 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(username) returned 安尔碘多
+2020-12-03 13:54:25.688 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.688 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(password) returned 123456
+2020-12-03 13:54:25.689 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.689 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(deptname) returned 1
+2020-12-03 13:54:25.689 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.689 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(activity) returned 1
+2020-12-03 13:54:25.689 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.689 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(professional) returned 2
+2020-12-03 13:54:25.690 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.690 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(role) returned 1
+2020-12-03 13:54:25.690 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.690 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(indate) returned 2020-11-04
+2020-12-03 13:54:25.690 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.690 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned true
+2020-12-03 13:54:25.691 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(userid) returned 123124
+2020-12-03 13:54:25.691 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.691 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(username) returned 纣王
+2020-12-03 13:54:25.691 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.691 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(password) returned 123456
+2020-12-03 13:54:25.692 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.692 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(deptname) returned 1
+2020-12-03 13:54:25.692 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.692 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(activity) returned 1
+2020-12-03 13:54:25.693 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.693 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(professional) returned 2
+2020-12-03 13:54:25.693 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.693 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(role) returned 1
+2020-12-03 13:54:25.693 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.693 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(indate) returned 2020-11-04
+2020-12-03 13:54:25.693 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-12-03 13:54:25.694 INFO  log4jdbc.log4j2 Line:390 - 
+|-------|---------|---------|---------|---------|-------------|-----|-----------|
+|userid |username |password |deptname |activity |professional |role |indate     |
+|-------|---------|---------|---------|---------|-------------|-----|-----------|
+|123123 |安尔碘多     |123456   |1        |1        |2            |1    |2020-11-04 |
+|123124 |纣王       |123456   |1        |1        |2            |1    |2020-11-04 |
+|-------|---------|---------|---------|---------|-------------|-----|-----------|
+
+2020-12-03 13:54:25.694 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned false
+2020-12-03 13:54:25.694 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.close() returned void
+2020-12-03 13:54:25.694 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@40e41ab2
+2020-12-03 13:54:25.695 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getMoreResults() returned false
+2020-12-03 13:54:25.695 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2020-12-03 13:54:25.695 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.close() returned 
+2020-12-03 13:54:25.695 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 

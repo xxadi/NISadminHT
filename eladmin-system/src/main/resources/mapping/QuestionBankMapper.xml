@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.zhengjie.yuangan.mapper.QuestionBankMapper">
+
+    <resultMap id="questionBank" type="me.zhengjie.yuangan.bean.QuestionBank">
+        <id property="questId" column="quest_id"/>
+        <result property="questName" column="quest_name"/>
+        <result property="questOperId" column="quest_oper_id"/>
+        <result property="questOperName" column="quest_oper_name"/>
+        <result property="questOperTime" column="quest_oper_time"/>
+        <result property="questType" column="quest_type"/>
+        <result property="questTitle" column="quest_title"/>
+        <result property="questDifficulty" column="quest_difficulty"/>
+        <result property="questState" column="quest_state"/>
+        <result property="questResult" column="quest_result"/>
+        <result property="createTime" column="create_time"/>
+    </resultMap>
+<!--    <delete id="deleteByNoId">-->
+<!--        delete from NOA_NOTE_LIST where no_id=#{noId}-->
+<!--    </delete>-->
+    <insert id="insertQuestion" parameterType="me.zhengjie.yuangan.bean.QuestionBank" useGeneratedKeys="true" keyProperty="questId">
+        insert into NOA_QUESTION_BANK(quest_name,quest_oper_id,quest_oper_name,quest_oper_time
+        ,quest_type,quest_title,quest_difficulty,quest_state,quest_result,create_time,QUEST_ANALYSIS,score)
+        values(#{questName},
+        #{questOperId},
+        #{questOperName},
+        DATE_FORMAT(#{questOperTime},'%Y-%m-%d %H:%i:%s'),
+        #{questType},
+        #{questTitle},#{questDifficulty},
+        #{questState},#{questResult},
+        DATE_FORMAT(#{createTime}, '%Y-%m-%d %H:%i:%s'),
+         #{questAnalysis},
+         #{score})
+    </insert>
+
+    <select id="findAllQuestion" resultMap="questionBank">
+        select *
+        from
+        NOA_QUESTION_BANK
+        <where>
+            <if test="name != null and name != ''">
+                quest_name like #{name}
+            </if>
+            <if test="attribute != null and attribute != ''">
+                and quest_type = #{attribute}
+            </if>
+            <if test="catagory != null and catagory != ''">
+                and quest_title = #{catagory}
+            </if>
+            <if test="questDifficulty != null and questDifficulty != ''">
+                and quest_difficulty = #{questDifficulty}
+            </if>
+            <if test="state != null and state != ''">
+                and quest_state = #{state}
+            </if>
+        </where>
+        order by create_time DESC
+    </select>
+
+    <select id="questQuestionById" resultMap="questionBank">
+        select *
+        from
+        NOA_QUESTION_BANK
+        <where>
+            <if test="questId != null and questId != ''">
+                QUEST_ID like #{questId}
+            </if>
+        </where>
+        order by create_time DESC
+    </select>
+
+    <select id="questQuestionAnswerById" resultType="java.util.Map">
+        select content,prefix
+        from
+        noa_question_choice
+        <where>
+            <if test="questId != null and questId != ''">
+                qid like #{questId}
+            </if>
+        </where>
+        order by sort asc
+    </select>
+    <update id="stopUse">
+        update NOA_QUESTION_BANK
+        set quest_state = '0'
+        where quest_id = #{questId}
+    </update>
+    <delete id="deleteQuestion">
+         DELETE FROM NOA_QUESTION_BANK WHERE quest_id = #{questId}
+    </delete>
+    <update id="startUse">
+        update NOA_QUESTION_BANK
+        set quest_state = '1'
+        where quest_id = #{questId}
+    </update>
+    <insert id="insertQuestionAnswer"  useGeneratedKeys="true" >
+        insert into noa_question_choice(qid,prefix,content,sort,create_time
+        ,remark,update_time)
+        values
+        <foreach collection="list" item="item" index="key" separator=",">
+
+            (#{id},#{item.prefix},#{item.content},#{key},DATE_FORMAT(sysdate(),'%Y-%m-%d %H:%i:%s'),'',sysdate())
+
+        </foreach>
+    </insert>
+    <delete id="deleteQuestionAnswer" >
+
+        DELETE FROM noa_question_choice WHERE qid = #{id}
+        </delete>
+    <update id="updateQuestion" parameterType="me.zhengjie.yuangan.bean.QuestionBank">
+            update NOA_QUESTION_BANK
+            set   quest_name = #{questName},quest_oper_id =#{questOperId} ,quest_oper_name=#{questOperName},
+            quest_oper_time = #{questOperTime},quest_type =#{questType} ,quest_title=#{questTitle},
+            quest_difficulty = #{questDifficulty},quest_state =#{questState} ,quest_result=#{questResult},
+            create_time = DATE_FORMAT(#{createTime}, '%Y-%m-%d %H:%i:%s'),QUEST_ANALYSIS = #{questAnalysis},score = #{score}
+            where quest_id = #{questId}
+        </update>
+
+</mapper>
